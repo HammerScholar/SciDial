@@ -1,0 +1,73 @@
+[
+    {
+        "id": "UG_1",
+        "domain": "General",
+        "intent": "Greeting",
+        "action": ["General-Greeting"],
+        "required_slot": [],
+        "requested_slot": [],
+        "root": true,
+        "child_template": ["SG_1"],
+        "description": "问候",
+        "message": [
+            "你好",
+            "你好，我能问你一些问题嘛",
+            "下午好",
+            "上午好",
+            "Hello",
+            "晚上好",
+            "Hi",
+            "好久不见",
+            "早上好",
+            "最近怎么样"
+        ]
+    },
+    {
+        "id": "UG_2",
+        "domain": "General",
+        "intent": "Bye",
+        "action": ["General-Bye"],
+        "Choice": null,
+        "required_slot": [],
+        "req_more": [],
+        "leaf": false,
+        "child_template": [],
+        "description": "再见",
+        "message": [
+            "再见",
+            "拜拜",
+            "886",
+            "下次见",
+            "后会有期",
+            "再见啦",
+            "Byebye",
+            "See you later",
+            "待会见",
+            "溜了溜了"
+        ]
+    },
+    {
+        "id": "UG_3",
+        "domain": "General",
+        "intent": "Thanks",
+        "action": ["General-Thanks"],
+        "Choice": null,
+        "required_slot": [],
+        "req_more": [],
+        "leaf": false,
+        "child_template": [],
+        "description": "感谢",
+        "message": [
+            "好的我知道了，感谢你对我的帮助",
+            "太感谢了",
+            "感激不尽",
+            "谢谢啦",
+            "Thank you",
+            "麻烦您了",
+            "太谢谢您了",
+            "我明白了，麻烦你了",
+            "好的好的，谢谢你的帮忙",
+            "感谢感谢"
+        ]
+    }
+]

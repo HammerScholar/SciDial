@@ -1,0 +1,135 @@
+[
+    {
+        "action": [
+            "Conference-Browse"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Conference",
+        "message": [
+            "那能打开一下ACL2022的官网嘛，我想查看一些详细信息",
+            "请你打开一下ACL2022的官网嘛，我想查看一些详细信息",
+            "我想浏览ACL2022的官网",
+            "你可以打开一下ACL2022的官网嘛，我想查看一些详细信息",
+            "你能打开一下ACL2022的官网嘛，我想查看一些详细信息",
+            "我想浏览ACL2022的官网，你可以打开一下吗",
+            "我想浏览ACL2022的官网，你能打开一下吗",
+            "打开一下ACL2022的官网",
+            "你好请打开一下ACL2022的官网，我想查看一些详细信息",
+            "点击进入ACL2022的官网，我看看它的一些内容"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Browse"
+        ],
+        "required_slot": [
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Conference",
+        "message": [
+            "那打开一下https://www.2022.aclweb.org/吧",
+            "请你打开一下https://www.2022.aclweb.org/嘛，我想查看一些详细信息",
+            "我想浏览https://www.2022.aclweb.org/",
+            "你可以打开一下https://www.2022.aclweb.org/嘛，我想查看一些详细信息",
+            "你能打开一下https://www.2022.aclweb.org/嘛，我想查看一些详细信息",
+            "我想浏览https://www.2022.aclweb.org/，你可以打开一下吗",
+            "我想浏览https://www.2022.aclweb.org/，你能打开一下吗",
+            "打开一下https://www.2022.aclweb.org/",
+            "你好请打开一下https://www.2022.aclweb.org/，我想查看一些详细信息",
+            "点击https://www.2022.aclweb.org/，我看看它的一些内容"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Browse"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Paper",
+        "message": [
+            "那在浏览器中打开一下这篇论文吧",
+            "在浏览器中打开一下这篇论文",
+            "请在浏览器中打开一下这篇论文",
+            "打开一下这篇论文的官网",
+            "你可以打开一下这篇论文的官网吗",
+            "请你在浏览器中打开一下这篇论文",
+            "你好可以在浏览器中打开一下这篇论文吗",
+            "我要浏览这篇论文官网",
+            "你好我要浏览这篇论文官网",
+            "请打开一下这篇论文的官网"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Browse"
+        ],
+        "required_slot": [
+            "pdf"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Paper",
+        "message": [
+            "那打开一下https://arxiv.org/pdf/2110.07679.pdf吧",
+            "在浏览器中打开一下https://arxiv.org/pdf/2110.07679.pdf",
+            "请在浏览器中打开一下https://arxiv.org/pdf/2110.07679.pdf",
+            "打开一下https://arxiv.org/pdf/2110.07679.pdf",
+            "你可以打开一下https://arxiv.org/pdf/2110.07679.pdf吗",
+            "请你在浏览器中打开一下https://arxiv.org/pdf/2110.07679.pdf",
+            "你好可以在浏览器中打开一下https://arxiv.org/pdf/2110.07679.pdf吗",
+            "我要浏览https://arxiv.org/pdf/2110.07679.pdf",
+            "你好我要浏览https://arxiv.org/pdf/2110.07679.pdf",
+            "请打开一下https://arxiv.org/pdf/2110.07679.pdf"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Browse"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Journal",
+        "message": [
+            "那能打开一下NATURE的官网嘛，我想查看一些详细信息",
+            "请打开一下NATURE的官网",
+            "可以打开一下NATURE的官网",
+            "点击网站链接，打开一下NATURE的官网",
+            "我需要查看一些详细信息，请打开NATURE的官网",
+            "你知道NATURE的官网吗，打开它",
+            "您好能打开一下NATURE的官网嘛，我想查看一些详细信息",
+            "请点击网站链接，打开一下NATURE的官网",
+            "可以打开一下NATURE的官网吗",
+            "我想要查看NATURE的官网信息"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Browse"
+        ],
+        "required_slot": [
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Journal",
+        "message": [
+            "那打开一下https://www.nature.com/吧",
+            "请打开一下https://www.nature.com/",
+            "可以打开一下https://www.nature.com/",
+            "点击网站链接，打开一下https://www.nature.com/",
+            "我需要查看一些详细信息，请打开https://www.nature.com/",
+            "你知道https://www.nature.com/吗，打开它",
+            "您好能打开一下https://www.nature.com/嘛，我想查看一些详细信息",
+            "请点击网站链接，打开一下https://www.nature.com/",
+            "可以打开一下https://www.nature.com/吗",
+            "我想要查看https://www.nature.com/的网站信息"
+        ]
+    }
+]

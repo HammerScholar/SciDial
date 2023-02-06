@@ -1,0 +1,514 @@
+[
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of paperDue",
+        "message": [
+            "ACL2022是在11月份截稿的嘛",
+            "你知道ACL2022是不是最近要截稿了呢",
+            "ACL2022是不是最近要截稿了呢",
+            "ACL2022该不会马上要截稿了吧",
+            "请问ACL2022是不是最近要截稿了呢",
+            "请问ACL2022是不是最近要截稿了呢",
+            "请问ACL2022是在11月份截稿的嘛",
+            "请问ACL2022该不会马上要截稿了吧",
+            "你知道ACL2022是不是马上要截稿了呢",
+            "难道ACL2022是在11月份截稿的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of noticeDue",
+        "message": [
+            "ACL 2022是在11月份通知的嘛",
+            "你知道ACL2022是不是最近要通知了呢",
+            "ACL2022是不是最近要通知了呢",
+            "ACL2022该不会马上要通知了吧",
+            "请问ACL2022是不是最近要通知呢",
+            "请问ACL2022是不是最近要通知了呢",
+            "请问ACL2022是在11月份通知的嘛",
+            "请问ACL2022该不会马上要通知吧",
+            "你知道ACL2022是不是马上要通知呢",
+            "难道ACL2022是在11月份通知的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of heldDate",
+        "message": [
+            "ACL 2022是在11月份举办的嘛",
+            "你知道ACL2022是不是最近要举办了呢",
+            "ACL2022是不是最近要举办了呢",
+            "ACL2022该不会马上要举办了吧",
+            "请问ACL2022是不是最近要举办呢",
+            "请问ACL2022是不是最近要举办了呢",
+            "请问ACL2022是在11月份举办的嘛",
+            "请问ACL2022该不会马上要举办吧",
+            "你知道ACL2022是不是马上要举办呢",
+            "难道ACL2022是在11月份举办的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of abstractDue",
+        "message": [
+            "ACL 2022是在11月份截止提交摘要的嘛",
+            "你知道ACL2022是不是最近要截止提交摘要了呢",
+            "ACL2022是不是最近要截止提交摘要呢",
+            "ACL2022该不会马上要截止提交摘要吧",
+            "请问ACL2022是不是最近要截止提交摘要呢",
+            "请问ACL2022是不是最近要截止提交摘要呢",
+            "请问ACL2022是在11月份截止提交摘要嘛",
+            "请问ACL2022该不会马上要截止提交摘要吧",
+            "你知道ACL2022是不是马上要截止提交摘要呢",
+            "难道ACL2022是在11月份截止提交摘要的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of finalDue",
+        "message": [
+            "ACL 2022是在11月份截止提交最终版论文的嘛",
+            "你知道ACL2022是不是最近要截止提交最终版论文呢",
+            "ACL2022是不是最近要截止提交最终版论文呢",
+            "ACL2022该不会马上要截止提交最终版论文吧",
+            "请问ACL2022是不是最近截止提交最终版论文呢",
+            "请问ACL2022是不是最近要截止提交最终版论文了呢",
+            "请问ACL2022是在11月份截止提交最终版论文的嘛",
+            "请问ACL2022该不会马上要截止提交最终版论文吧",
+            "你知道ACL2022是不是马上要截止提交最终版论文呢",
+            "难道ACL2022是在11月份截止提交最终版论文的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of location",
+        "message": [
+            "ACL 2022是在线上举办的嘛",
+            "你知道ACL2022是不是在线上举办呢",
+            "ACL2022是不是要在线上举办呢",
+            "ACL2022该不会要在网上举办吧",
+            "请问ACL2022是不是在线上举办呢",
+            "请问ACL2022是不是在线上举办呢",
+            "请问ACL2022是在网上举办嘛",
+            "请问ACL2022该不会在网上举办吧",
+            "你知道ACL2022是不是在网上举办呢",
+            "难道ACL2022是在网上举办嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of category",
+        "message": [
+            "ACL是属于人工智能领域的嘛",
+            "你知道ACL2022是不是属于人工智能领域呢",
+            "ACL2022是不是属于人工智能领域呢",
+            "ACL2022该不会属于人工智能领域吧",
+            "请问ACL2022是不是属于人工智能领域呢",
+            "请问ACL2022是不是关于人工智能领域呢",
+            "请问ACL2022是研究人工智能领域嘛",
+            "请问ACL2022该不会属于人工智能领域吧",
+            "你知道ACL2022是不是属于人工智能领域呢",
+            "难道ACL2022是属于人工智能领域嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of ccf",
+        "message": [
+            "ACL会议是A类会议嘛",
+            "你知道ACL2022是不是属于A类会议呢",
+            "ACL2022是不是属于A类会议呢",
+            "ACL2022该不会属于A类会议吧",
+            "请问ACL2022是不是属于A类会议呢",
+            "请问ACL2022是不是关于A类会议呢",
+            "请问ACL2022是A类会议嘛",
+            "请问ACL2022该不会属于A类会议吧",
+            "你知道ACL2022是不是A类会议呢",
+            "难道ACL2022是A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of author",
+        "message": [
+            "这篇论文是李航写的嘛",
+            "请问这篇论文是李航写的嘛",
+            "这篇论文的作者是李航嘛",
+            "你确定这篇论文的作者是李航嘛",
+            "你知道这篇论文是李航写的嘛",
+            "问一下这篇论文的作者是李航嘛",
+            "我不太清楚，请问这篇论文是李航写的嘛",
+            "请问这篇论文的作者是李航嘛",
+            "你确定这篇论文是李航写的嘛",
+            "这篇论文是李航写的吧"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of venue",
+        "message": [
+            "这篇论文是发表在ACL上的嘛",
+            "请问这篇论文是发表在ACL上的嘛",
+            "这篇论文的发表期刊是ACL嘛",
+            "你确定这篇论文发表在ACL上嘛",
+            "你知道这篇论文是发表在ACL上嘛",
+            "问一下这篇论文发表在ACL上嘛",
+            "我不太清楚，请问这篇论文是发表在ACL上嘛",
+            "请问这篇论文发表在ACL上嘛",
+            "你确定这篇论文是发表在ACL上嘛",
+            "这篇论文是发表在ACL上吧"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of year",
+        "message": [
+            "这篇论文是今年发表的嘛",
+            "请问这篇论文是今年发表的嘛",
+            "这篇论文的发表年份是今年嘛",
+            "你确定这篇论文在今年发表嘛",
+            "你知道这篇论文是今年发表嘛",
+            "问一下这篇论文的发表年份是今年嘛",
+            "我不太清楚，请问这篇论文是今年发表嘛",
+            "请问这篇论文今年发表嘛",
+            "你确定这篇论文是今年发表嘛",
+            "这篇论文是今年发表吧"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of institution",
+        "message": [
+            "这篇论文是北京大学发表的嘛",
+            "请问这篇论文是北京大学发表嘛",
+            "这篇论文的发布机构是北京大学嘛",
+            "你确定这篇论文的发布机构是北京大学嘛",
+            "你知道这篇论文是在北京大学发表嘛",
+            "问一下这篇论文的发表机构偶是北京大学嘛",
+            "我不太清楚，请问这篇论文是在北京大学发表嘛",
+            "请问这篇论文由北京大学发表嘛",
+            "你确定这篇论文是在北京大学发表嘛",
+            "这篇论文是在北京大学发表吧"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of IF",
+        "message": [
+            "NATURE是IF最高的期刊的嘛",
+            "请问NATURE是IF最高的期刊的嘛",
+            "NATURE是IF最高的期刊的吧",
+            "你知道NATURE是IF最高的期刊的吗",
+            "告诉我NATURE是IF最高的期刊的吗",
+            "NATURE是不是IF最高的期刊呢",
+            "NATURE应该是IF最高的期刊吧",
+            "你确定NATURE是IF最高的期刊的吗",
+            "你应该知道NATURE是IF最高的期刊的吧",
+            "问一下NATURE是IF最高的期刊的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of h_index",
+        "message": [
+            "NATURE是h5最高的期刊的嘛",
+            "请问NATURE是h5最高的期刊的嘛",
+            "NATURE是h5最高的期刊的吧",
+            "你知道NATURE是h5最高的期刊的吗",
+            "告诉我NATURE是h5最高的期刊的吗",
+            "NATURE是不是h5最高的期刊呢",
+            "NATURE应该是h5最高的期刊吧",
+            "你确定NATURE是h5最高的期刊的吗",
+            "你应该知道NATURE是h5最高的期刊的吧",
+            "问一下NATURE是h5最高的期刊的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of self_citing",
+        "message": [
+            "NATURE是自引率最高的期刊的嘛",
+            "请问NATURE是自引率最高的期刊的嘛",
+            "NATURE是自引率最高的期刊的吧",
+            "你知道NATURE是自引率最高的期刊的吗",
+            "告诉我NATURE是自引率最高的期刊的吗",
+            "NATURE是不是自引率最高的期刊呢",
+            "NATURE应该是自引率最高的期刊吧",
+            "你确定NATURE是自引率最高的期刊的吗",
+            "你应该知道NATURE是自引率最高的期刊的吧",
+            "问一下NATURE是自引率最高的期刊的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of ccf",
+        "message": [
+            "NATURE是A类期刊的嘛",
+            "请问NATURE是A类期刊的嘛",
+            "NATURE是A类期刊的吧",
+            "你知道NATURE是A类期刊的吗",
+            "告诉我NATURE是A类期刊的吗",
+            "NATURE是不是A类期刊呢",
+            "NATURE应该是A类期刊吧",
+            "你确定NATURE是A类期刊的吗",
+            "你应该知道NATURE是A类期刊的吧",
+            "问一下NATURE是A类期刊的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of sci",
+        "message": [
+            "NATURE是sci一区期刊的嘛",
+            "请问NATURE是sci一区期刊的嘛",
+            "NATURE是sci一区期刊的吧",
+            "你知道NATURE是sci一区期刊的吗",
+            "告诉我NATURE是sci一区期刊的吗",
+            "NATURE是不是sci一区期刊呢",
+            "NATURE应该是sci一区期刊吧",
+            "你确定NATURE是sci一区期刊的吗",
+            "你应该知道NATURE是sci一区期刊的吧",
+            "问一下NATURE是sci一区期刊的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of OA",
+        "message": [
+            "NATURE是开放访问的嘛",
+            "请问NATURE是开放访问的嘛",
+            "NATURE是开放访问的吧",
+            "你知道NATURE是开放访问的吗",
+            "告诉我NATURE是开放访问的吗",
+            "NATURE是不是开放访问呢",
+            "NATURE应该是开放访问吧",
+            "你确定NATURE是开放访问的吗",
+            "你应该知道NATURE是开放访问的吧",
+            "问一下NATURE是开放访问的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of category",
+        "message": [
+            "NATURE是人工智能领域的期刊嘛",
+            "请问NATURE是人工智能领域的嘛",
+            "NATURE是人工智能领域的吧",
+            "你知道NATURE是人工智能领域的吗",
+            "告诉我NATURE是人工智能领域的吗",
+            "NATURE是不是人工智能领域呢",
+            "NATURE应该是人工智能领域吧",
+            "你确定NATURE是人工智能领域的吗",
+            "你应该知道NATURE是人工智能领域的吧",
+            "问一下NATURE是人工智能领域的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of field",
+        "message": [
+            "黄河燕是做NLP方向的嘛",
+            "请问黄河燕是做NLP方向的嘛",
+            "黄河燕的方向是NLP吗",
+            "黄河燕的研究领域是NLP吗",
+            "你知道黄河燕是做NLP方向的嘛",
+            "请问黄河燕的研究领域是NLP吗",
+            "黄河燕的研究工作是关于NLP的吗",
+            "黄河燕主要在NLP展开研究的吗",
+            "可以查询一下黄河燕是做NLP方向的嘛",
+            "请问黄河燕的研究工作是关于NLP的吗"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of affiliation",
+        "message": [
+            "黄河燕是在北京理工大学工作嘛",
+            "请问黄河燕是在北京理工大学工作的嘛",
+            "黄河燕的工作单位是北京理工大学吗",
+            "黄河燕的工作地址是北京理工大学吗",
+            "你知道黄河燕是在北京理工大学工作嘛",
+            "请问黄河燕的工作单位是北京理工大学吗",
+            "黄河燕的研究工作是在北京理工大学进行的吗",
+            "请问黄河燕的工作单位是北京理工大学吗",
+            "可以查询一下黄河燕黄河燕的工作单位是北京理工大学吗",
+            "请问黄河燕是在北京理工大学任职吗"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of position",
+        "message": [
+            "黄河燕现在是教授嘛",
+            "请问黄河燕现在是教授嘛",
+            "黄河燕的职称现在是教授吗",
+            "黄河燕现在是教授对吧",
+            "现在黄河燕确定是教授嘛",
+            "你好黄河燕现在是教授嘛",
+            "不好意思打扰一下黄河燕现在是教授嘛",
+            "我不太确定，咨询一下黄河燕的职称现在是教授吗",
+            "你能确定黄河燕现在是教授嘛",
+            "可以确定黄河燕现在是教授嘛"
+        ]
+    }
+]

@@ -1,0 +1,423 @@
+[
+    {
+        "action": [
+            "General-Positive"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "When user confirms, give positive answer",
+        "message": [
+            "嗯嗯是的呢",
+            "是的",
+            "没错",
+            "是的呢",
+            "嗯嗯",
+            "你理解的没错",
+            "没有问题",
+            "你说的没错",
+            "对的"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL2022的截稿时间是XXX",
+            "不对的，ACL2022的截稿时间是XXX",
+            "不是，ACL2022的截稿时间是XXX",
+            "不是的，ACL2022的截稿时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL2022的通知时间是XXX",
+            "不对的，ACL2022的通知时间是XXX",
+            "不是，ACL2022的通知时间是XXX",
+            "不是的，ACL2022的通知时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL2022的举行时间是XXX",
+            "不对的，ACL2022的举行时间是XXX",
+            "不是，ACL2022的举行时间是XXX",
+            "不是的，ACL2022的举行时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL2022的摘要截稿时间是XXX",
+            "不对的，ACL2022的摘要截稿时间是XXX",
+            "不是，ACL2022的摘要截稿时间是XXX",
+            "不是的，ACL2022的摘要截稿时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL2022的最终版截稿时间是XXX",
+            "不对的，ACL2022的最终版截稿时间是XXX",
+            "不是，ACL2022的最终版截稿时间是XXX",
+            "不是的，ACL2022的最终版截稿时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL2022的举行地点是XXX",
+            "不对的，ACL2022的举行地点是XXX",
+            "不是，ACL2022的举行地点是XXX",
+            "不是的，ACL2022的举行地点是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL会议的研究领域有XXX",
+            "不对的，ACL会议的研究领域有XXX",
+            "不是，ACL会议的研究领域有XXX",
+            "不是的，ACL会议的研究领域有XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，ACL会议是XXX会议",
+            "不对的，ACL会议是XXX会议",
+            "不是，ACL会议是XXX会议",
+            "不是的，ACL会议是XXX会议"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，这篇论文的作者有XXX",
+            "不对的，这篇论文的作者有XXX",
+            "不是，这篇论文的作者有XXX",
+            "不是的，这篇论文的作者有XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，这篇论文是在XXX上发表的",
+            "不对的，这篇论文是在XXX上发表的",
+            "不是，这篇论文是在XXX上发表的",
+            "不是的，这篇论文是在XXX上发表的"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，这篇论文是在XXX发表的",
+            "不对的，这篇论文是在XXX发表的",
+            "不是，这篇论文是在XXX发表的",
+            "不是的，这篇论文是在XXX发表的"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，这篇论文的发表机构是XXX",
+            "不对的，这篇论文的发表机构是XXX",
+            "不是，这篇论文的发表机构是XXX",
+            "不是的，这篇论文的发表机构是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，TOIS期刊的IF影响因子是XXX",
+            "不对的，TOIS期刊的IF影响因子是XXX",
+            "不是，TOIS期刊的IF影响因子是XXX",
+            "不是的，TOIS期刊的IF影响因子是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，TOIS期刊的h5指数是XXX",
+            "不对的，TOIS期刊的h5指数是XXX",
+            "不是，TOIS期刊的h5指数是XXX",
+            "不是的，TOIS期刊的h5指数是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，TOIS期刊的自引率是XXX",
+            "不对的，TOIS期刊的自引率是XXX",
+            "不是，TOIS期刊的自引率是XXX",
+            "不是的，TOIS期刊的自引率是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，TOIS期刊是XXX期刊",
+            "不对的，TOIS期刊是XXX期刊",
+            "不是，TOIS期刊是XXX期刊",
+            "不是的，TOIS期刊是XXX期刊"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，TOIS期刊是XXX期刊",
+            "不对的，TOIS期刊是XXX期刊",
+            "不是，TOIS期刊是XXX期刊",
+            "不是的，TOIS期刊是XXX期刊"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，TOIS期刊XXX开放访问",
+            "不对的，TOIS期刊XXX开放访问",
+            "不是，TOIS期刊XXX开放访问",
+            "不是的，TOIS期刊XXX开放访问"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，TOIS期刊的研究领域有XXX",
+            "不对的，TOIS期刊的研究领域有XXX",
+            "不是，TOIS期刊的研究领域有XXX",
+            "不是的，TOIS期刊的研究领域有XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，黄河燕的研究领域有XXX",
+            "不对的，黄河燕的研究领域有XXX",
+            "不是，黄河燕的研究领域有XXX",
+            "不是的，黄河燕的研究领域有XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，黄河燕的工作机构是XXX",
+            "不对的，黄河燕的工作机构是XXX",
+            "不是，黄河燕的工作机构是XXX",
+            "不是的，黄河燕的工作机构是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": [
+            "不对，黄河燕的职称是XXX",
+            "不对的，黄河燕的职称是XXX",
+            "不是，黄河燕的职称是XXX",
+            "不是的，黄河燕的职称是XXX"
+        ]
+    }
+]

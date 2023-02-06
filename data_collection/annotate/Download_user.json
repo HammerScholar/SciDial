@@ -1,0 +1,116 @@
+[
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "title",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper with path",
+        "message": [
+            "把这篇论文下载到桌面吧",
+            "把它下载到桌面上吧",
+            "把它放置在桌面",
+            "下载路径是桌面",
+            "你好把这篇论文下载到桌面吧",
+            "可以把它下载到桌面上吗",
+            "下载论文在桌面",
+            "请把它下载到桌面上吧",
+            "能不能下载论文在桌面",
+            "请你把这篇论文下载到桌面吧"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper without path",
+        "message": [
+            "我想要下载一下这篇论文",
+            "下载一下这篇论文",
+            "请下载一下这篇论文",
+            "下载一下这篇论文可以吗",
+            "你可以下载一下这篇论文吗",
+            "请你下载一下这篇论文",
+            "你好可以下载一下这篇论文吗",
+            "我要下载一下这篇论文",
+            "你好我要下载一下这篇论文",
+            "请下载一下这篇论文好吗"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "tell path",
+        "message": [
+            "下载路径是桌面",
+            "把它下载到桌面上吧",
+            "把它放置在桌面",
+            "下载路径是桌面",
+            "你好把这篇论文下载到桌面吧",
+            "可以把它下载到桌面上吗",
+            "下载论文在桌面",
+            "请把它下载到桌面上吧",
+            "能不能下载论文在桌面",
+            "请你把这篇论文下载到桌面吧"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "pdf",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper with path",
+        "message": [
+            "把这篇论文下载到桌面吧",
+            "把它下载到桌面上吧",
+            "把它放置在桌面",
+            "下载路径是桌面",
+            "你好把这篇论文下载到桌面吧",
+            "可以把它下载到桌面上吗",
+            "下载论文在桌面",
+            "请把它下载到桌面上吧",
+            "能不能下载论文在桌面",
+            "请你把这篇论文下载到桌面吧"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "pdf"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper without path",
+        "message": [
+            "我想要下载一下这篇论文",
+            "下载一下这篇论文",
+            "请下载一下这篇论文",
+            "下载一下这篇论文可以吗",
+            "你可以下载一下这篇论文吗",
+            "请你下载一下这篇论文",
+            "你好可以下载一下这篇论文吗",
+            "我要下载一下这篇论文",
+            "你好我要下载一下这篇论文",
+            "请下载一下这篇论文好吗",
+            "下载一下https://aclanthology.org/2020.lrec-1.53.pdf吧",
+            "把https://aclanthology.org/2020.lrec-1.53.pdf下载一下吧"
+        ]
+    }
+]

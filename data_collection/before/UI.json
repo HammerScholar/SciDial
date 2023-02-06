@@ -1,0 +1,72 @@
+[
+    {
+        "id": "UIR_1",
+        "domain": "Institution",
+        "intent": "Request",
+        "action": ["Institution-Request"],
+        "required_slot": ["name"],
+        "requested_slot": ["address"],
+        "root": false,
+        "child_template": [],
+        "description": "询问具体机构的地址",
+        "message": [
+            "北京大学的地址是什么呢",
+            "北京大学位于什么位置呢",
+            "北京大学在哪呢",
+            "北京大学坐落在什么地方呢",
+            "请问北京大学的具体地址是什么",
+            "查询北京大学的校址",
+            "请回答北京大学的具体位置",
+            "北京大学位于北京市的什么位置呢",
+            "你知道北京大学的地址是什么吗",
+            "请告诉我北京大学的地址是什么"
+            
+        ]
+    },
+    {
+        "id": "UIR_2",
+        "domain": "Institution",
+        "intent": "Request",
+        "action": ["Institution-Request"],
+        "required_slot": ["name"],
+        "requested_slot": ["website"],
+        "root": false,
+        "child_template": [],
+        "description": "询问具体机构的官网",
+        "message": [
+            "北京大学的官网是什么呢",
+            "北京大学的官网链接是什么",
+            "请告诉我北京大学的官网是什么呢",
+            "你知道北京大学的官网链接是什么吗",
+            "北京大学的官网地址是什么",
+            "北京大学的官网中包括了什么",
+            "北京大学的官网是关于什么的",
+            "你知道北京大学的官网是什么吗，告诉我",
+            "你知道北京大学的官网地址是什么吗",
+            "请问北京大学的官网是什么呢"
+        ]
+    },
+    {
+        "id": "UID_1",
+        "domain": "Institution",
+        "intent": "Doubt",
+        "action": ["Institution-Doubt"],
+        "required_slot": ["name", "address"],
+        "requested_slot": [],
+        "root": false,
+        "child_template": [],
+        "description": "质疑机构的地址",
+        "message": [
+            "北京大学不在这里的吧",
+            "北京大学应该不在这里吧",
+            "北京大学好像不在这里吧",
+            "我记得北京大学不在这里的吧",
+            "北京大学是在这里的吗",
+            "北京大学的校址不在这里的吧",
+            "北京大学的校址应该不在这里吧",
+            "北京大学的校址好像不在这里吧",
+            "我记得北京大学好像不在这里的吧",
+            "我记得北京大学应该不在这里的吧"
+        ]
+    }
+]

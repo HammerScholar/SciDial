@@ -1,0 +1,373 @@
+[
+    {
+        "action": [
+            "General-Doubt"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "Doubt to system response",
+        "message": [
+            "不是这样的吧",
+            "你说得不对吧",
+            "我记得不是这样的吧",
+            "你说的有点问题吧，你检查一下",
+            "不对的吧",
+            "不应该的吧",
+            "呃不是这样的吧",
+            "这个数据有误吧",
+            "你没有弄对吧",
+            "你没有读懂我的意思吧"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL2022不是在下个月截稿的吧",
+            "我记得ACL2022已经截稿了，你说的不对吧",
+            "ACL2022不应该是在下个月截稿的吧",
+            "ACL2022好像是已经截稿了吧",
+            "我记得ACL2022已经截稿了",
+            "不应该呀，我记得ACL2022已经截稿了",
+            "我记得ACL2022不是在下个月截稿的吧",
+            "ACL2022怎么会是在下个月截稿的呢",
+            "不对吧，我记得ACL2022已经截稿了",
+            "我记得ACL2022不应该是在下个月截稿的吧"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL 2022不是在下个月通知的吧",
+            "我记得ACL2022已经通知了，你说的不对吧",
+            "ACL2022不应该是在下个月通知的吧",
+            "ACL2022好像是已经通知了吧",
+            "我记得ACL2022已经通知了",
+            "不应该呀，我记得ACL2022已经通知了",
+            "我记得ACL2022不是在下个月通知的吧",
+            "ACL2022怎么会是在下个月通知的呢",
+            "不对吧，我记得ACL2022已经通知了",
+            "我记得ACL2022不应该是在下个月通知的吧"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL 2022不是在下个月举办的吧",
+            "我记得ACL2022已经举办了，你说的不对吧",
+            "ACL2022不应该是在下个月举办的吧",
+            "ACL2022好像是已经举办了吧",
+            "我记得ACL2022已经举办了",
+            "不应该呀，我记得ACL2022已经举办了",
+            "我记得ACL2022不是在下个月举办的吧",
+            "ACL2022怎么会是在下个月举办的呢",
+            "不对吧，我记得ACL2022已经举办了",
+            "我记得ACL2022不应该是在下个月举办的吧"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL 2022不是在下个月截止提交摘要的吧",
+            "我记得ACL2022已经截止提交摘要了，你说的不对吧",
+            "ACL2022不应该是在下个月截止提交摘要的吧",
+            "ACL2022好像是已经截止提交摘要了吧",
+            "我记得ACL2022已经截止提交摘要了",
+            "不应该呀，我记得ACL2022已经截止提交摘要了",
+            "我记得ACL2022不是在下个月截止提交摘要的吧",
+            "ACL2022怎么会是在下个月截止提交摘要的呢",
+            "不对吧，我记得ACL2022已经截止提交摘要了",
+            "我记得ACL2022不应该是在下个月截止提交摘要的吧"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL 2022不是在下个月截止提交最终版论文的吧",
+            "我记得ACL2022已经截止提交最终版论文了，你说的不对吧",
+            "ACL2022不应该是在下个月截止提交最终版论文的吧",
+            "ACL2022好像是已经截止提交最终版论文了吧",
+            "我记得ACL2022已经截止提交最终版论文了",
+            "不应该呀，我记得ACL2022已经截止提交最终版论文了",
+            "我记得ACL2022不是在下个月截止提交最终版论文吧",
+            "ACL2022怎么会是在下个月截止提交最终版论文呢",
+            "不对吧，我记得ACL2022已经截止提交最终版论文了",
+            "我记得ACL2022不应该是在下个月截止提交最终版论文吧"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL 2022不是在线上举办的吧",
+            "我记得ACL2022在线下举办了，你说的不对吧",
+            "ACL2022不应该是在下在线上举办的吧",
+            "ACL2022好像是在线下举办了吧",
+            "我记得ACL2022在线下举办",
+            "不应该呀，我记得ACL2022在线下举办的",
+            "我记得ACL2022不是在线上举办吧",
+            "ACL2022怎么会在线上举办呢",
+            "不对吧，我记得ACL2022在线下举办",
+            "我记得ACL2022不应该是在线上举办"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL不是属于人工智能领域的会议吧",
+            "我记得ACL2022不是属于人工智能领域的会议吧，你说的不对吧",
+            "ACL2022不应该是不是属于人工智能领域的会议吧",
+            "ACL2022好像不是属于人工智能领域的会议吧",
+            "我记得ACL2022不是属于人工智能领域的会议吧",
+            "不应该呀，我记得ACL2022不是属于人工智能领域的会议吧",
+            "我记得ACL2022不是属于人工智能领域的会议吧",
+            "ACL2022怎么会是属于人工智能领域的会议呢",
+            "不对吧，我记得ACL2022不是属于人工智能领域的会议吧",
+            "我记得ACL2022不应该属于人工智能领域的会议吧"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "ACL会议不是A类会议吧",
+            "我记得ACL2022不是A类会议吧，你说的不对吧",
+            "ACL2022不应该是A类会议吧",
+            "ACL2022好像不是A类会议吧",
+            "我记得ACL2022不是A类会议吧",
+            "不应该呀，我记得ACL2022不是A类会议吧",
+            "我记得ACL2022不是A类会议吧",
+            "ACL2022怎么会是A类会议呢",
+            "不对吧，我记得ACL2022不是A类会议吧",
+            "我记得ACL2022不应该是A类会议吧"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "NATURE的IF指标不是最高的吧",
+            "我记得NATURE的IF指标不是最高的吧",
+            "NATURE的IF指标应该不是最高的吧",
+            "好像NATURE的IF指标不是最高的吧",
+            "你说的不对吧，NATURE的IF指标不是最高的",
+            "难道NATURE的IF指标是最高的吗",
+            "我觉得NATURE的IF指标不是最高的",
+            "我查过，NATURE的IF指标不是最高的吧",
+            "我不同意，我记得NATURE的IF指标不是最高的",
+            "我不这么觉得，NATURE的IF指标好像不是最高的"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "NATURE的h5指标不是最高的吧",
+            "我记得NATURE的h5指标不是最高的吧",
+            "NATURE的h5指标应该不是最高的吧",
+            "好像NATURE的h5指标不是最高的吧",
+            "你说的不对吧，NATURE的h5指标不是最高的",
+            "难道NATURE的h5指标是最高的吗",
+            "我觉得NATURE的h5指标不是最高的",
+            "我查过，NATURE的h5指标不是最高的吧",
+            "我不同意，我记得NATURE的h5指标不是最高的",
+            "我不这么觉得，NATURE的h5指标好像不是最高的"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "NATURE的自引率不是最高的吧",
+            "我记得NATURE的自引率不是最高的吧",
+            "NATURE的自引率应该不是最高的吧",
+            "好像NATURE的自引率不是最高的吧",
+            "你说的不对吧，NATURE的自引率不是最高的",
+            "难道NATURE的自引率是最高的吗",
+            "我觉得NATURE的自引率不是最高的",
+            "我查过，NATURE的自引率不是最高的吧",
+            "我不同意，我记得NATURE的自引率不是最高的",
+            "我不这么觉得，NATURE的自引率好像不是最高的"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "TOIS不是B类期刊吧",
+            "我记得NATURE不是B类期刊吧",
+            "NATURE应该不是B类期刊吧",
+            "好像NATURE不是B类期刊吧",
+            "你说的不对吧，NATURE不是B类期刊",
+            "难道NATURE是B类期刊吗",
+            "我觉得NATURE不是B类期刊",
+            "我查过，NATURE不是B类期刊吧",
+            "我不同意，我记得NATURE不是B类期刊",
+            "我不这么觉得，NATURE好像不是B类期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "TOIS不是sci一区期刊吧",
+            "我记得NATURE不是sci一区期刊吧",
+            "NATURE应该不是sci一区期刊吧",
+            "好像NATURE不是sci一区期刊吧",
+            "你说的不对吧，NATURE不是sci一区期刊",
+            "难道NATURE是sci一区期刊吗",
+            "我觉得NATURE不是sci一区期刊",
+            "我查过，NATURE不是sci一区期刊吧",
+            "我不同意，我记得NATURE不是sci一区期刊",
+            "我不这么觉得，NATURE好像不是sci一区期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "NATURE不是开放访问的吧",
+            "我记得NATURE不是开放访问的吧",
+            "NATURE应该不是开放访问的吧",
+            "好像NATURE不是开放访问的吧",
+            "你说的不对吧，NATURE不是开放访问的",
+            "难道NATURE是开放访问的吗",
+            "我觉得NATURE不是开放访问的",
+            "我查过，NATURE不是开放访问的吧",
+            "我不同意，我记得NATURE不是开放访问的",
+            "我不这么觉得，NATURE好像不是开放访问的"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": [
+            "NATURE期刊不是人工领域内的期刊吧",
+            "我记得NATURE不是人工领域内的吧",
+            "NATURE应该不是人工领域内的吧",
+            "好像NATURE不是人工领域内的吧",
+            "你说的不对吧，NATURE不是人工领域内的",
+            "难道NATURE是人工领域内的吗",
+            "我觉得NATURE不是人工领域内的",
+            "我查过，NATURE不是人工领域内的吧",
+            "我不同意，我记得NATURE不是人工领域内的",
+            "我不这么觉得，NATURE好像不是人工领域内的"
+        ]
+    }
+]

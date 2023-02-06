@@ -1,0 +1,3954 @@
+[
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue",
+        "message": [
+            "你确定找的是最近截稿的会议嘛",
+            "你确定会议截稿时间是下个月嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的会议嘛",
+            "抱歉没有找到符合条件的会议唉，你确定会议截稿时间是下个月嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的会议嘛",
+            "没有符合条件的会议，你确定会议截稿时间是下个月嘛",
+            "没找到相应的会议，你确定找的是最近截稿的会议嘛",
+            "没找到相应的会议，你确定会议截稿时间是下个月嘛",
+            "没有相关的会议，你确定找的是最近截稿的会议嘛",
+            "没有相关的会议，你确定会议截稿时间是下个月嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的会议嘛",
+            "找到0个相关的会议唉，你确定会议截稿时间是下个月嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的会议嘛",
+            "符合条件的会议有0个，你确定会议截稿时间是下个月嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference",
+        "message": [
+            "抱歉没有找到符合条件的会议唉",
+            "没有符合条件的会议",
+            "没找到相应的会议",
+            "没有相关的会议",
+            "找到0个相关的会议唉",
+            "符合条件的会议有0个"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "acronym"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Conference and return",
+        "message": [
+            "共找到1个符合条件的会议，它就是ACL",
+            "只有1个满足条件的会议，它就是ACL",
+            "满足条件的会议共有1个，它就是ACL",
+            "只有ACL是满足条件的",
+            "为你找到了ACL会议，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "acronym"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Conference and return",
+        "message": [
+            "共找到2个符合条件的会议，它们是ACL和EMNLP",
+            "只有2个满足条件的会议，它们是ACL和EMNLP",
+            "满足条件的会议共有2个，它们是ACL和EMNLP",
+            "只有ACL和EMNLP是满足条件的",
+            "为你找到了ACL和EMNLP会议，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Conference and ask user for more constraints",
+        "message": [
+            "共找到2个符合条件的会议，您还有什么其他的要求嘛",
+            "只有2个满足条件的会议，您还有什么其他的要求嘛",
+            "满足条件的会议共有2个，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Conference and ask user whether output those",
+        "message": [
+            "共找到50个符合条件的会议，你确定要输出嘛",
+            "共有50个满足条件的会议，你确定要输出嘛",
+            "满足条件的会议共有50个，你确定要输出嘛",
+            "共找到50个符合条件的会议，你确定要返回结果嘛",
+            "共有50个满足条件的会议，你确定要返回结果嘛",
+            "满足条件的会议共有50个，你确定要返回结果嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "acronym"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Conference and return",
+        "message": [
+            "共找到50个符合条件的会议，点击展开可查看具体信息",
+            "共有50个满足条件的会议，点击展开可查看具体信息",
+            "满足条件的会议共有50个，点击展开可查看具体信息"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Conference and ask user for more constraints",
+        "message": [
+            "共找到50个符合条件的会议，您还有什么其他的要求嘛",
+            "共有50个满足条件的会议，您还有什么其他的要求嘛",
+            "满足条件的会议共有50个，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问下个月截稿的会议",
+            "没有符合条件的会议，你要不问问下个月截稿的会议",
+            "没找到相应的会议，你要不问问下个月截稿的会议",
+            "没有相关的会议，你要不问问下个月截稿的会议",
+            "找到0个相关的会议唉，你要不问问下个月截稿的会议",
+            "符合条件的会议有0个，你要不问问下个月截稿的会议"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "paperDue"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么时候截稿的会议呢",
+            "只有2个满足条件的会议，你想要什么时候截稿的会议呢",
+            "满足条件的会议共有2个，你想要什么时候截稿的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "paperDue"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么时候截稿的会议呢",
+            "只有50个满足条件的会议，你想要什么时候截稿的会议呢",
+            "满足条件的会议共有50个，你想要什么时候截稿的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue",
+        "message": [
+            "你确定找的是最近通知的会议嘛",
+            "你确定会议通知时间是下个月嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的会议嘛",
+            "抱歉没有找到符合条件的会议唉，你确定会议通知时间是下个月嘛",
+            "没有符合条件的会议，你确定找的是最近通知的会议嘛",
+            "没有符合条件的会议，你确定会议通知时间是下个月嘛",
+            "没找到相应的会议，你确定找的是最近通知的会议嘛",
+            "没找到相应的会议，你确定会议通知时间是下个月嘛",
+            "没有相关的会议，你确定找的是最近通知的会议嘛",
+            "没有相关的会议，你确定会议通知时间是下个月嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的会议嘛",
+            "找到0个相关的会议唉，你确定会议通知时间是下个月嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的会议嘛",
+            "符合条件的会议有0个，你确定会议通知时间是下个月嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问下个月通知的会议",
+            "没有符合条件的会议，你要不问问下个月通知的会议",
+            "没找到相应的会议，你要不问问下个月通知的会议",
+            "没有相关的会议，你要不问问下个月通知的会议",
+            "找到0个相关的会议唉，你要不问问下个月通知的会议",
+            "符合条件的会议有0个，你要不问问下个月通知的会议"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "noticeDue"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么时候通知的会议呢",
+            "只有2个满足条件的会议，你想要什么时候通知的会议呢",
+            "满足条件的会议共有2个，你想要什么时候通知的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "noticeDue"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么时候通知的会议呢",
+            "只有50个满足条件的会议，你想要什么时候通知的会议呢",
+            "满足条件的会议共有50个，你想要什么时候通知的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate",
+        "message": [
+            "你确定找的是最近举行的会议嘛",
+            "你确定会议举行时间是下个月嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近举行的会议嘛",
+            "抱歉没有找到符合条件的会议唉，你确定会议举行时间是下个月嘛",
+            "没有符合条件的会议，你确定找的是最近举行的会议嘛",
+            "没有符合条件的会议，你确定会议举行时间是下个月嘛",
+            "没找到相应的会议，你确定找的是最近举行的会议嘛",
+            "没找到相应的会议，你确定会议举行时间是下个月嘛",
+            "没有相关的会议，你确定找的是最近举行的会议嘛",
+            "没有相关的会议，你确定会议举行时间是下个月嘛",
+            "找到0个相关的会议唉，你确定找的是最近举行的会议嘛",
+            "找到0个相关的会议唉，你确定会议举行时间是下个月嘛",
+            "符合条件的会议有0个，你确定找的是最近举行的会议嘛",
+            "符合条件的会议有0个，你确定会议举行时间是下个月嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问下个月举办的会议",
+            "没有符合条件的会议，你要不问问下个月举办的会议",
+            "没找到相应的会议，你要不问问下个月举办的会议",
+            "没有相关的会议，你要不问问下个月举办的会议",
+            "找到0个相关的会议唉，你要不问问下个月举办的会议",
+            "符合条件的会议有0个，你要不问问下个月举办的会议"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "heldDate"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么时候举行的会议呢",
+            "只有2个满足条件的会议，你想要什么时候举行的会议呢",
+            "满足条件的会议共有2个，你想要什么时候举行的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "heldDate"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么时候举行的会议呢",
+            "只有50个满足条件的会议，你想要什么时候举行的会议呢",
+            "满足条件的会议共有50个，你想要什么时候举行的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location",
+        "message": [
+            "你确定找的是在北京举办的会议嘛",
+            "你确定会议举办地点是北京嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是在北京举办的会议嘛",
+            "抱歉没有找到符合条件的会议唉，你确定会议举办地点是北京嘛",
+            "没有符合条件的会议，你确定找的是在北京举办的会议嘛",
+            "没有符合条件的会议，你确定会议举办地点是北京嘛",
+            "没找到相应的会议，你确定找的是在北京举办的会议嘛",
+            "没找到相应的会议，你确定会议举办地点是北京嘛",
+            "没有相关的会议，你确定找的是在北京举办的会议嘛",
+            "没有相关的会议，你确定会议举办地点是北京嘛",
+            "找到0个相关的会议唉，你确定找的是在北京举办的会议嘛",
+            "找到0个相关的会议唉，你确定会议举办地点是北京嘛",
+            "符合条件的会议有0个，你确定找的是在北京举办的会议嘛",
+            "符合条件的会议有0个，你确定会议举办地点是北京嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问在北京举办的会议",
+            "没有符合条件的会议，你要不问问在北京举办的会议",
+            "没找到相应的会议，你要不问问在北京举办的会议",
+            "没有相关的会议，你要不问问在北京举办的会议",
+            "找到0个相关的会议唉，你要不问问在北京举办的会议",
+            "符合条件的会议有0个，你要不问问在北京举办的会议"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "location"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要在哪里举行的会议呢",
+            "只有2个满足条件的会议，你想要在哪里举行的会议呢",
+            "满足条件的会议共有2个，你想要在哪里举行的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "location"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要在哪里举行的会议呢",
+            "只有50个满足条件的会议，你想要在哪里举行的会议呢",
+            "满足条件的会议共有50个，你想要在哪里举行的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are category",
+        "message": [
+            "你确定找的是人工智能领域的会议嘛",
+            "你确定会议是关于人工智能的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的会议嘛",
+            "抱歉没有找到符合条件的会议唉，你确定会议是关于人工智能的嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定会议是关于人工智能的嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的会议嘛",
+            "没找到相应的会议，你确定会议是关于人工智能的嘛",
+            "没有相关的会议，你确定找的是人工智能领域的会议嘛",
+            "没有相关的会议，你确定会议是关于人工智能的嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定会议是关于人工智能的嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定会议是关于人工智能的嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问人工智能领域的会议",
+            "没有符合条件的会议，你要不问问人工智能领域的会议",
+            "没找到相应的会议，你要不问问人工智能领域的会议",
+            "没有相关的会议，你要不问问人工智能领域的会议",
+            "找到0个相关的会议唉，你要不问问人工智能领域的会议",
+            "符合条件的会议有0个，你要不问问人工智能领域的会议"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么领域的会议呢",
+            "只有2个满足条件的会议，你想要什么领域的会议呢",
+            "满足条件的会议共有2个，你想要什么领域的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么领域的会议呢",
+            "只有50个满足条件的会议，你想要什么领域的会议呢",
+            "满足条件的会议共有50个，你想要什么领域的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf",
+        "message": [
+            "你确定找的是A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是A类会议嘛",
+            "没有符合条件的会议，你确定找的是A类会议嘛",
+            "没找到相应的会议，你确定找的是A类会议嘛",
+            "没有相关的会议，你确定找的是A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是A类会议嘛",
+            "符合条件的会议有0个，你确定找的是A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问B类会议",
+            "没有符合条件的会议，你要不问问B类会议",
+            "没找到相应的会议，你要不问问B类会议",
+            "没有相关的会议，你要不问问B类会议",
+            "找到0个相关的会议唉，你要不问问B类会议",
+            "符合条件的会议有0个，你要不问问B类会议"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么级别的会议呢",
+            "只有2个满足条件的会议，你想要什么级别的会议呢",
+            "满足条件的会议共有2个，你想要什么级别的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么级别的会议呢",
+            "只有50个满足条件的会议，你想要什么级别的会议呢",
+            "满足条件的会议共有50个，你想要什么级别的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location",
+        "message": [
+            "你确定找的是最近截稿的在北京举办的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的在北京举办的会议嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的在北京举办的会议嘛",
+            "没找到相应的会议，你确定找的是最近截稿的在北京举办的会议嘛",
+            "没有相关的会议，你确定找的是最近截稿的在北京举办的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的在北京举办的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的在北京举办的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location",
+        "message": [
+            "你确定找的是最近通知的在北京举办的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的在北京举办的会议嘛",
+            "没有符合条件的会议，你确定找的是最近通知的在北京举办的会议嘛",
+            "没找到相应的会议，你确定找的是最近通知的在北京举办的会议嘛",
+            "没有相关的会议，你确定找的是最近通知的在北京举办的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的在北京举办的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的在北京举办的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location",
+        "message": [
+            "你确定找的是最近在北京举办的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近在北京举办的会议嘛",
+            "没有符合条件的会议，你确定找的是最近在北京举办的会议嘛",
+            "没找到相应的会议，你确定找的是最近在北京举办的会议嘛",
+            "没有相关的会议，你确定找的是最近在北京举办的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近在北京举办的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近在北京举办的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,category",
+        "message": [
+            "你确定找的是最近截稿的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的人工智能领域的会议嘛",
+            "没找到相应的会议，你确定找的是最近截稿的人工智能领域的会议嘛",
+            "没有相关的会议，你确定找的是最近截稿的人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,category",
+        "message": [
+            "你确定找的是最近通知的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定找的是最近通知的人工智能领域的会议嘛",
+            "没找到相应的会议，你确定找的是最近通知的人工智能领域的会议嘛",
+            "没有相关的会议，你确定找的是最近通知的人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,category",
+        "message": [
+            "你确定找的是最近举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近举行的人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定找的是最近举行的人工智能领域的会议嘛",
+            "没找到相应的会议，你确定找的是最近举行的人工智能领域的会议嘛",
+            "没有相关的会议，你确定找的是最近举行的人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近举行的人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,ccf",
+        "message": [
+            "你确定找的是最近截稿的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近截稿的A类会议嘛",
+            "没有相关的会议，你确定找的是最近截稿的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,ccf",
+        "message": [
+            "你确定找的是最近通知的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近通知的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近通知的A类会议嘛",
+            "没有相关的会议，你确定找的是最近通知的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,ccf",
+        "message": [
+            "你确定找的是最近举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近举行的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近举行的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近举行的A类会议嘛",
+            "没有相关的会议，你确定找的是最近举行的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近举行的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location,category",
+        "message": [
+            "你确定找的是在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是在北京举行的人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定找的是在北京举行的人工智能领域的会议嘛",
+            "没找到相应的会议，你确定找的是在北京举行的人工智能领域的会议嘛",
+            "没有相关的会议，你确定找的是在北京举行的人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定找的是在北京举行的人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定找的是在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location,ccf",
+        "message": [
+            "你确定找的是在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是在北京举行的A类会议嘛",
+            "没有符合条件的会议，你确定找的是在北京举行的A类会议嘛",
+            "没找到相应的会议，你确定找的是在北京举行的A类会议嘛",
+            "没有相关的会议，你确定找的是在北京举行的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是在北京举行的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are category,ccf",
+        "message": [
+            "你确定找的是人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location,category",
+        "message": [
+            "你确定找的是最近截稿的在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的在北京举行的人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的在北京举行的人工智能领域的会议嘛",
+            "没找到相应的会议，你确定找的是最近截稿的在北京举行的人工智能领域的会议嘛",
+            "没有相关的会议，你确定找的是最近截稿的在北京举行的人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的在北京举行的人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location,category",
+        "message": [
+            "你确定找的是最近通知的在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的在北京举行的人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定找的是最近通知的在北京举行的人工智能领域的会议嘛",
+            "没找到相应的会议，你确定找的是最近通知的在北京举行的人工智能领域的会议嘛",
+            "没有相关的会议，你确定找的是最近通知的在北京举行的人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的在北京举行的人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location,category",
+        "message": [
+            "你确定找的是最近在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近在北京举行的人工智能领域的会议嘛",
+            "没有符合条件的会议，你确定找的是最近在北京举行的人工智能领域的会议嘛",
+            "没找到相应的会议，你确定找的是最近在北京举行的人工智能领域的会议嘛",
+            "没有相关的会议，你确定找的是最近在北京举行的人工智能领域的会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近在北京举行的人工智能领域的会议嘛",
+            "符合条件的会议有0个，你确定找的是最近在北京举行的人工智能领域的会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location,ccf",
+        "message": [
+            "你确定找的是最近截稿的在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的在北京举行的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的在北京举行的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近截稿的在北京举行的A类会议嘛",
+            "没有相关的会议，你确定找的是最近截稿的在北京举行的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的在北京举行的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location,ccf",
+        "message": [
+            "你确定找的是最近通知的在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的在北京举行的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近通知的在北京举行的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近通知的在北京举行的A类会议嘛",
+            "没有相关的会议，你确定找的是最近通知的在北京举行的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的在北京举行的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location,ccf",
+        "message": [
+            "你确定找的是最近在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近在北京举行的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近在北京举行的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近在北京举行的A类会议嘛",
+            "没有相关的会议，你确定找的是最近在北京举行的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近在北京举行的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近在北京举行的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,category,ccf",
+        "message": [
+            "你确定找的是最近截稿的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近截稿的人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是最近截稿的人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,category,ccf",
+        "message": [
+            "你确定找的是最近通知的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近通知的人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近通知的人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是最近通知的人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,category,ccf",
+        "message": [
+            "你确定找的是最近举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近举行的人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近举行的人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近举行的人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是最近举行的人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近举行的人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location,category,ccf",
+        "message": [
+            "你确定找的是在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是在北京举行的人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是在北京举行的人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是在北京举行的人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是在北京举行的人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是在北京举行的人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location,category,ccf",
+        "message": [
+            "你确定找的是最近截稿的在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近截稿的在北京举行的人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近截稿的在北京举行的人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近截稿的在北京举行的人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是最近截稿的在北京举行的人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近截稿的在北京举行的人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近截稿的在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location,category,ccf",
+        "message": [
+            "你确定找的是最近通知的在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近通知的在北京举行的人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近通知的在北京举行的人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近通知的在北京举行的人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是最近通知的在北京举行的人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近通知的在北京举行的人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近通知的在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location,category,ccf",
+        "message": [
+            "你确定找的是最近在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是最近在北京举行的人工智能领域的A类会议嘛",
+            "没有符合条件的会议，你确定找的是最近在北京举行的人工智能领域的A类会议嘛",
+            "没找到相应的会议，你确定找的是最近在北京举行的人工智能领域的A类会议嘛",
+            "没有相关的会议，你确定找的是最近在北京举行的人工智能领域的A类会议嘛",
+            "找到0个相关的会议唉，你确定找的是最近在北京举行的人工智能领域的A类会议嘛",
+            "符合条件的会议有0个，你确定找的是最近在北京举行的人工智能领域的A类会议嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author",
+        "message": [
+            "你确定找的是李航发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是李航发表的论文嘛",
+            "没有符合条件的会议，你确定找的是李航发表的论文嘛",
+            "没找到相应的会议，你确定找的是李航发表的论文嘛",
+            "没有相关的会议，你确定找的是李航发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是李航发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是李航发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper",
+        "message": [
+            "抱歉没有找到符合条件的论文唉",
+            "没有符合条件的论文",
+            "没找到相应的论文",
+            "没有相关的论文",
+            "找到0个相关的论文唉",
+            "符合条件的论文有0个"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Paper and return",
+        "message": [
+            "共找到1篇符合条件的论文，它就是Attention is all you need",
+            "只有1篇满足条件的论文，它就是Attention is all you need",
+            "满足条件的论文共有1篇，它就是Attention is all you need",
+            "只有Attention is all you need是满足条件的",
+            "为你找到了Attention is all you need，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Paper and return",
+        "message": [
+            "共找到2篇符合条件的会议，它们是Attention is all you need和Generative Adversarial Nets",
+            "只有2篇满足条件的会议，它们是Attention is all you need和Generative Adversarial Nets",
+            "满足条件的会议共有2篇，它们是Attention is all you need和Generative Adversarial Nets",
+            "只有Attention is all you need和Generative Adversarial Nets是满足条件的",
+            "为你找到了Attention is all you need和Generative Adversarial Nets，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Paper and ask user for more constraints",
+        "message": [
+            "共找到2篇符合条件的论文，您还有什么其他的要求嘛",
+            "只有2篇满足条件的论文，您还有什么其他的要求嘛",
+            "满足条件的论文共有2篇，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Paper and ask user whether output those",
+        "message": [
+            "共找到50篇符合条件的论文，你确定要输出嘛",
+            "共有50篇满足条件的论文，你确定要输出嘛",
+            "满足条件的论文共有50篇，你确定要输出嘛",
+            "共找到50篇符合条件的论文，你确定要返回结果嘛",
+            "共有50篇满足条件的论文，你确定要返回结果嘛",
+            "满足条件的论文共有50篇，你确定要返回结果嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Paper and return",
+        "message": [
+            "共找到50篇符合条件的论文，点击展开可查看具体信息",
+            "共有50篇满足条件的论文，点击展开可查看具体信息",
+            "满足条件的论文共有50篇，点击展开可查看具体信息"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Paper and ask user for more constraints",
+        "message": [
+            "共找到50篇符合条件的论文，您还有什么其他的要求嘛",
+            "共有50篇满足条件的论文，您还有什么其他的要求嘛",
+            "满足条件的论文共有50篇，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问黄河燕老师的论文",
+            "没有符合条件的会议，你要不问问黄河燕老师的论文",
+            "没找到相应的会议，你要不问问黄河燕老师的论文",
+            "没有相关的会议，你要不问问黄河燕老师的论文",
+            "找到0个相关的会议唉，你要不问问黄河燕老师的论文",
+            "符合条件的会议有0个，你要不问问黄河燕老师的论文"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "author"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要谁发表的论文呢",
+            "只有2个满足条件的会议，你想要谁发表的论文呢",
+            "满足条件的会议共有2个，你想要谁发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "author"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要谁发表的论文呢",
+            "只有50个满足条件的会议，你想要谁发表的论文呢",
+            "满足条件的会议共有50个，你想要谁发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution",
+        "message": [
+            "你确定找的是北京大学发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学发表的论文嘛",
+            "没有符合条件的会议，你确定找的是北京大学发表的论文嘛",
+            "没找到相应的会议，你确定找的是北京大学发表的论文嘛",
+            "没有相关的会议，你确定找的是北京大学发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是北京大学发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问清华大学发表的论文",
+            "没有符合条件的会议，你要不问问清华大学发表的论文",
+            "没找到相应的会议，你要不问问清华大学发表的论文",
+            "没有相关的会议，你要不问问清华大学发表的论文",
+            "找到0个相关的会议唉，你要不问问清华大学发表的论文",
+            "符合条件的会议有0个，你要不问问清华大学发表的论文"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "institution"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么机构发表的论文呢",
+            "只有2个满足条件的会议，你想要什么机构发表的论文呢",
+            "满足条件的会议共有2个，你想要什么机构发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "institution"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么机构发表的论文呢",
+            "只有50个满足条件的会议，你想要什么机构发表的论文呢",
+            "满足条件的会议共有50个，你想要什么机构发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are venue",
+        "message": [
+            "你确定找的是ACL上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是ACL上发表的论文嘛",
+            "没有符合条件的会议，你确定找的是ACL上发表的论文嘛",
+            "没找到相应的会议，你确定找的是ACL上发表的论文嘛",
+            "没有相关的会议，你确定找的是ACL上发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是ACL上发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是ACL上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问EMNLP上发表的论文",
+            "没有符合条件的会议，你要不问问EMNLP上发表的论文",
+            "没找到相应的会议，你要不问问EMNLP上发表的论文",
+            "没有相关的会议，你要不问问EMNLP上发表的论文",
+            "找到0个相关的会议唉，你要不问问EMNLP上发表的论文",
+            "符合条件的会议有0个，你要不问问EMNLP上发表的论文"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "venue"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么会议发表的论文呢",
+            "只有2个满足条件的会议，你想要什么会议发表的论文呢",
+            "满足条件的会议共有2个，你想要什么会议发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "venue"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么会议发表的论文呢",
+            "只有50个满足条件的会议，你想要什么会议发表的论文呢",
+            "满足条件的会议共有50个，你想要什么会议发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are year",
+        "message": [
+            "你确定找的是今年发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是今年发表的论文嘛",
+            "没有符合条件的会议，你确定找的是今年发表的论文嘛",
+            "没找到相应的会议，你确定找的是今年发表的论文嘛",
+            "没有相关的会议，你确定找的是今年发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是今年发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是今年发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问去年发表的论文",
+            "没有符合条件的会议，你要不问问去年发表的论文",
+            "没找到相应的会议，你要不问问去年发表的论文",
+            "没有相关的会议，你要不问问去年发表的论文",
+            "找到0个相关的会议唉，你要不问问去年发表的论文",
+            "符合条件的会议有0个，你要不问问去年发表的论文"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "year"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要哪年发表的论文呢",
+            "只有2个满足条件的会议，你想要哪年发表的论文呢",
+            "满足条件的会议共有2个，你想要哪年发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "year"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要哪年发表的论文呢",
+            "只有50个满足条件的会议，你想要哪年发表的论文呢",
+            "满足条件的会议共有50个，你想要哪年发表的论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author,venue",
+        "message": [
+            "你确定找的是李航在ACL上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是李航在ACL上发表的论文嘛",
+            "没有符合条件的会议，你确定找的是李航在ACL上发表的论文嘛",
+            "没找到相应的会议，你确定找的是李航在ACL上发表的论文嘛",
+            "没有相关的会议，你确定找的是李航在ACL上发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是李航在ACL上发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是李航在ACL上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution,venue",
+        "message": [
+            "你确定找的是北京大学在ACL上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学在ACL上发表的论文嘛",
+            "没有符合条件的会议，你确定找的是北京大学在ACL上发表的论文嘛",
+            "没找到相应的会议，你确定找的是北京大学在ACL上发表的论文嘛",
+            "没有相关的会议，你确定找的是北京大学在ACL上发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学在ACL上发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是北京大学在ACL上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author,year",
+        "message": [
+            "你确定找的是李航今年发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是李航今年发表的论文嘛",
+            "没有符合条件的会议，你确定找的是李航今年发表的论文嘛",
+            "没找到相应的会议，你确定找的是李航今年发表的论文嘛",
+            "没有相关的会议，你确定找的是李航今年发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是李航今年发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是李航今年发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution,year",
+        "message": [
+            "你确定找的是北京大学今年发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学今年发表的论文嘛",
+            "没有符合条件的会议，你确定找的是北京大学今年发表的论文嘛",
+            "没找到相应的会议，你确定找的是北京大学今年发表的论文嘛",
+            "没有相关的会议，你确定找的是北京大学今年发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学今年发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是北京大学今年发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are venue,year",
+        "message": [
+            "你确定找的是ACL2022上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是ACL2022上发表的论文嘛",
+            "没有符合条件的会议，你确定找的是ACL2022上发表的论文嘛",
+            "没找到相应的会议，你确定找的是ACL2022上发表的论文嘛",
+            "没有相关的会议，你确定找的是ACL2022上发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是ACL2022上发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是ACL2022上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author,venue,year",
+        "message": [
+            "你确定找的是李航在ACL2022上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是李航在ACL2022上发表的论文嘛",
+            "没有符合条件的会议，你确定找的是李航在ACL2022上发表的论文嘛",
+            "没找到相应的会议，你确定找的是李航在ACL2022上发表的论文嘛",
+            "没有相关的会议，你确定找的是李航在ACL2022上发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是李航在ACL2022上发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是李航在ACL2022上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution,venue,year",
+        "message": [
+            "你确定找的是北京大学在ACL2022上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学在ACL2022上发表的论文嘛",
+            "没有符合条件的会议，你确定找的是北京大学在ACL2022上发表的论文嘛",
+            "没找到相应的会议，你确定找的是北京大学在ACL2022上发表的论文嘛",
+            "没有相关的会议，你确定找的是北京大学在ACL2022上发表的论文嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学在ACL2022上发表的论文嘛",
+            "符合条件的会议有0个，你确定找的是北京大学在ACL2022上发表的论文嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF",
+        "message": [
+            "你确定找的是IF>10的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是IF>10的期刊嘛",
+            "没有符合条件的会议，你确定找的是IF>10的期刊嘛",
+            "没找到相应的会议，你确定找的是IF>10的期刊嘛",
+            "没有相关的会议，你确定找的是IF>10的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是IF>10的期刊嘛",
+            "符合条件的会议有0个，你确定找的是IF>10的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal",
+        "message": [
+            "抱歉没有找到符合条件的期刊唉",
+            "没有符合条件的期刊",
+            "没找到相应的期刊",
+            "没有相关的期刊",
+            "找到0个相关的期刊唉",
+            "符合条件的期刊有0个"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Journal and return",
+        "message": [
+            "共找到1个符合条件的期刊，它就是TOIS",
+            "只有1个满足条件的期刊，它就是TOIS",
+            "满足条件的期刊共有1个，它就是TOIS",
+            "只有TOIS是满足条件的",
+            "为你找到了TOIS期刊，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Journal and return",
+        "message": [
+            "共找到2个符合条件的期刊，它们是TOIS和TKDE",
+            "只有2个满足条件的期刊，它们是TOIS和TKDE",
+            "满足条件的期刊共有2个，它们是TOIS和TKDE",
+            "只有TOIS和TKDE是满足条件的",
+            "为你找到了TOIS和TKDE，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Journal and ask user for more constraints",
+        "message": [
+            "共找到2个符合条件的期刊，您还有什么其他的要求嘛",
+            "只有2个满足条件的期刊，您还有什么其他的要求嘛",
+            "满足条件的期刊共有2个，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Journal and ask user whether output those",
+        "message": [
+            "共找到50个符合条件的期刊，你确定要输出嘛",
+            "共有50个满足条件的期刊，你确定要输出嘛",
+            "满足条件的期刊共有50个，你确定要输出嘛",
+            "共找到50个符合条件的期刊，你确定要返回结果嘛",
+            "共有50个满足条件的期刊，你确定要返回结果嘛",
+            "满足条件的期刊共有50个，你确定要返回结果嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Journal and return",
+        "message": [
+            "共找到50个符合条件的期刊，点击展开可查看具体信息",
+            "共有50个满足条件的期刊，点击展开可查看具体信息",
+            "满足条件的期刊共有50个，点击展开可查看具体信息"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Journal and ask user for more constraints",
+        "message": [
+            "共找到50个符合条件的期刊，您还有什么其他的要求嘛",
+            "共有50个满足条件的期刊，您还有什么其他的要求嘛",
+            "满足条件的期刊共有50个，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问IF>5的期刊",
+            "没有符合条件的会议，你要不问问IF>5的期刊",
+            "没找到相应的会议，你要不问问IF>5的期刊",
+            "没有相关的会议，你要不问问IF>5的期刊",
+            "找到0个相关的会议唉，你要不问问IF>5的期刊",
+            "符合条件的会议有0个，你要不问问IF>5的期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "IF"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要IF影响因子在什么范围上的期刊呢",
+            "只有2个满足条件的会议，你想要IF影响因子在什么范围上的期刊呢",
+            "满足条件的会议共有2个，你想要IF影响因子在什么范围上的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "IF"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要IF影响因子在什么范围上的期刊呢",
+            "只有50个满足条件的会议，你想要IF影响因子在什么范围上的期刊呢",
+            "满足条件的会议共有50个，你想要IF影响因子在什么范围上的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index",
+        "message": [
+            "你确定找的是h5指数>10的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是h5指数>10的期刊嘛",
+            "没有符合条件的会议，你确定找的是h5指数>10的期刊嘛",
+            "没找到相应的会议，你确定找的是h5指数>10的期刊嘛",
+            "没有相关的会议，你确定找的是h5指数>10的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是h5指数>10的期刊嘛",
+            "符合条件的会议有0个，你确定找的是h5指数>10的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问h5指数>5的期刊",
+            "没有符合条件的会议，你要不问问h5指数>5的期刊",
+            "没找到相应的会议，你要不问问h5指数>5的期刊",
+            "没有相关的会议，你要不问问h5指数>5的期刊",
+            "找到0个相关的会议唉，你要不问问h5指数>5的期刊",
+            "符合条件的会议有0个，你要不问问h5指数>5的期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要h5指数在什么范围上的期刊呢",
+            "只有2个满足条件的会议，你想要h5指数在什么范围上的期刊呢",
+            "满足条件的会议共有2个，你想要h5指数在什么范围上的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要h5指数在什么范围上的期刊呢",
+            "只有50个满足条件的会议，你想要h5指数在什么范围上的期刊呢",
+            "满足条件的会议共有50个，你想要h5指数在什么范围上的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf",
+        "message": [
+            "你确定找的是A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是A类期刊嘛",
+            "没有符合条件的会议，你确定找的是A类期刊嘛",
+            "没找到相应的会议，你确定找的是A类期刊嘛",
+            "没有相关的会议，你确定找的是A类期刊嘛",
+            "找到0个相关的会议唉，你确定找的是A类期刊嘛",
+            "符合条件的会议有0个，你确定找的是A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问B类期刊",
+            "没有符合条件的会议，你要不问问B类期刊",
+            "没找到相应的会议，你要不问问B类期刊",
+            "没有相关的会议，你要不问问B类期刊",
+            "找到0个相关的会议唉，你要不问问B类期刊",
+            "符合条件的会议有0个，你要不问问B类期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么ccf级别的期刊呢",
+            "只有2个满足条件的会议，你想要什么ccf级别的期刊呢",
+            "满足条件的会议共有2个，你想要什么ccf级别的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么ccf级别的期刊呢",
+            "只有50个满足条件的会议，你想要什么ccf级别的期刊呢",
+            "满足条件的会议共有50个，你想要什么ccf级别的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci",
+        "message": [
+            "你确定找的是sci一区期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是sci一区期刊嘛",
+            "没有符合条件的会议，你确定找的是sci一区期刊嘛",
+            "没找到相应的会议，你确定找的是sci一区期刊嘛",
+            "没有相关的会议，你确定找的是sci一区期刊嘛",
+            "找到0个相关的会议唉，你确定找的是sci一区期刊嘛",
+            "符合条件的会议有0个，你确定找的是sci一区期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问sci一区的期刊",
+            "没有符合条件的会议，你要不问问sci一区的期刊",
+            "没找到相应的会议，你要不问问sci一区的期刊",
+            "没有相关的会议，你要不问问sci一区的期刊",
+            "找到0个相关的会议唉，你要不问问sci一区的期刊",
+            "符合条件的会议有0个，你要不问问sci一区的期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "sci"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要sci几区的期刊呢",
+            "只有2个满足条件的会议，你想要sci几区的期刊呢",
+            "满足条件的会议共有2个，你想要sci几区的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "sci"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要sci几区的期刊呢",
+            "只有50个满足条件的会议，你想要sci几区的期刊呢",
+            "满足条件的会议共有50个，你想要sci几区的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are OA",
+        "message": [
+            "你确定找的是开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是开放访问的期刊嘛",
+            "没有符合条件的会议，你确定找的是开放访问的期刊嘛",
+            "没找到相应的会议，你确定找的是开放访问的期刊嘛",
+            "没有相关的会议，你确定找的是开放访问的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是开放访问的期刊嘛",
+            "符合条件的会议有0个，你确定找的是开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问不开放访问的期刊",
+            "没有符合条件的会议，你要不问问不开放访问的期刊",
+            "没找到相应的会议，你要不问问不开放访问的期刊",
+            "没有相关的会议，你要不问问不开放访问的期刊",
+            "找到0个相关的会议唉，你要不问问不开放访问的期刊",
+            "符合条件的会议有0个，你要不问问不开放访问的期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "OA"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要是否开放访问的期刊呢",
+            "只有2个满足条件的会议，你想要是否开放访问的期刊呢",
+            "满足条件的会议共有2个，你想要是否开放访问的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "OA"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要是否开放访问的期刊呢",
+            "只有50个满足条件的会议，你想要是否开放访问的期刊呢",
+            "满足条件的会议共有50个，你想要是否开放访问的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are category",
+        "message": [
+            "你确定找的是人工智能领域的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的期刊嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的期刊嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的期刊嘛",
+            "没有相关的会议，你确定找的是人工智能领域的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的期刊嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问问人工智能领域的期刊",
+            "没有符合条件的会议，你要不问问人工智能领域的期刊",
+            "没找到相应的会议，你要不问问人工智能领域的期刊",
+            "没有相关的会议，你要不问问人工智能领域的期刊",
+            "找到0个相关的会议唉，你要不问问人工智能领域的期刊",
+            "符合条件的会议有0个，你要不问问人工智能领域的期刊"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么领域的期刊呢",
+            "只有2个满足条件的会议，你想要什么领域的期刊呢",
+            "满足条件的会议共有2个，你想要什么领域的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么领域的期刊呢",
+            "只有50个满足条件的会议，你想要什么领域的期刊呢",
+            "满足条件的会议共有50个，你想要什么领域的期刊呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF,OA",
+        "message": [
+            "你确定找的是IF>10的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是IF>10的开放访问的期刊嘛",
+            "没有符合条件的会议，你确定找的是IF>10的开放访问的期刊嘛",
+            "没找到相应的会议，你确定找的是IF>10的开放访问的期刊嘛",
+            "没有相关的会议，你确定找的是IF>10的开放访问的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是IF>10的开放访问的期刊嘛",
+            "符合条件的会议有0个，你确定找的是IF>10的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index,OA",
+        "message": [
+            "你确定找的是h5指数>10的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是h5指数>10的开放访问的期刊嘛",
+            "没有符合条件的会议，你确定找的是h5指数>10的开放访问的期刊嘛",
+            "没找到相应的会议，你确定找的是h5指数>10的开放访问的期刊嘛",
+            "没有相关的会议，你确定找的是h5指数>10的开放访问的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是h5指数>10的开放访问的期刊嘛",
+            "符合条件的会议有0个，你确定找的是h5指数>10的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf,OA",
+        "message": [
+            "你确定找的是开放访问的A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是开放访问的A类期刊嘛",
+            "没有符合条件的会议，你确定找的是开放访问的A类期刊嘛",
+            "没找到相应的会议，你确定找的是开放访问的A类期刊嘛",
+            "没有相关的会议，你确定找的是开放访问的A类期刊嘛",
+            "找到0个相关的会议唉，你确定找的是开放访问的A类期刊嘛",
+            "符合条件的会议有0个，你确定找的是开放访问的A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci,OA",
+        "message": [
+            "你确定找的是开放访问的sci一区的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是开放访问的sci一区的期刊嘛",
+            "没有符合条件的会议，你确定找的是开放访问的sci一区的期刊嘛",
+            "没找到相应的会议，你确定找的是开放访问的sci一区的期刊嘛",
+            "没有相关的会议，你确定找的是开放访问的sci一区的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是开放访问的sci一区的期刊嘛",
+            "符合条件的会议有0个，你确定找的是开放访问的sci一区的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF,category",
+        "message": [
+            "你确定找的是IF>10的人工智能领域的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是IF>10的人工智能领域的期刊嘛",
+            "没有符合条件的会议，你确定找的是IF>10的人工智能领域的期刊嘛",
+            "没找到相应的会议，你确定找的是IF>10的人工智能领域的期刊嘛",
+            "没有相关的会议，你确定找的是IF>10的人工智能领域的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是IF>10的人工智能领域的期刊嘛",
+            "符合条件的会议有0个，你确定找的是IF>10的人工智能领域的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index,category",
+        "message": [
+            "你确定找的是h5指数>10的人工智能领域的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是h5指数>10的人工智能领域的期刊嘛",
+            "没有符合条件的会议，你确定找的是h5指数>10的人工智能领域的期刊嘛",
+            "没找到相应的会议，你确定找的是h5指数>10的人工智能领域的期刊嘛",
+            "没有相关的会议，你确定找的是h5指数>10的人工智能领域的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是h5指数>10的人工智能领域的期刊嘛",
+            "符合条件的会议有0个，你确定找的是h5指数>10的人工智能领域的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf,category",
+        "message": [
+            "你确定找的是人工智能领域的A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的A类期刊嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的A类期刊嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的A类期刊嘛",
+            "没有相关的会议，你确定找的是人工智能领域的A类期刊嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的A类期刊嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci,category",
+        "message": [
+            "你确定找的是人工智能领域的sci一区的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的sci一区的期刊嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的sci一区的期刊嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的sci一区的期刊嘛",
+            "没有相关的会议，你确定找的是人工智能领域的sci一区的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的sci一区的期刊嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的sci一区的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are OA,category",
+        "message": [
+            "你确定找的是人工智能领域的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的开放访问的期刊嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的开放访问的期刊嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的开放访问的期刊嘛",
+            "没有相关的会议，你确定找的是人工智能领域的开放访问的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的开放访问的期刊嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF,OA,category",
+        "message": [
+            "你确定找的是IF>10的人工智能领域的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是IF>10的人工智能领域的开放访问的期刊嘛",
+            "没有符合条件的会议，你确定找的是IF>10的人工智能领域的开放访问的期刊嘛",
+            "没找到相应的会议，你确定找的是IF>10的人工智能领域的开放访问的期刊嘛",
+            "没有相关的会议，你确定找的是IF>10的人工智能领域的开放访问的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是IF>10的人工智能领域的开放访问的期刊嘛",
+            "符合条件的会议有0个，你确定找的是IF>10的人工智能领域的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index,OA,category",
+        "message": [
+            "你确定找的是h5指数>10的人工智能领域的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是h5指数>10的人工智能领域的开放访问的期刊嘛",
+            "没有符合条件的会议，你确定找的是h5指数>10的人工智能领域的开放访问的期刊嘛",
+            "没找到相应的会议，你确定找的是h5指数>10的人工智能领域的开放访问的期刊嘛",
+            "没有相关的会议，你确定找的是h5指数>10的人工智能领域的开放访问的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是h5指数>10的人工智能领域的开放访问的期刊嘛",
+            "符合条件的会议有0个，你确定找的是h5指数>10的人工智能领域的开放访问的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf,OA,category",
+        "message": [
+            "你确定找的是人工智能领域的开放访问的A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的开放访问的A类期刊嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的开放访问的A类期刊嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的开放访问的A类期刊嘛",
+            "没有相关的会议，你确定找的是人工智能领域的开放访问的A类期刊嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的开放访问的A类期刊嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的开放访问的A类期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci,OA,category",
+        "message": [
+            "你确定找的是人工智能领域的开放访问的sci一区的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的开放访问的sci一区的期刊嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的开放访问的sci一区的期刊嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的开放访问的sci一区的期刊嘛",
+            "没有相关的会议，你确定找的是人工智能领域的开放访问的sci一区的期刊嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的开放访问的sci一区的期刊嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的开放访问的sci一区的期刊嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field",
+        "message": [
+            "你确定找的是人工智能领域的学者嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的学者嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的学者嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的学者嘛",
+            "没有相关的会议，你确定找的是人工智能领域的学者嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的学者嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的学者嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author",
+        "message": [
+            "抱歉没有找到符合条件的作者唉",
+            "没有符合条件的作者",
+            "没找到相应的作者",
+            "没有相关的作者",
+            "找到0个相关的作者唉",
+            "符合条件的作者有0个"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Author and return",
+        "message": [
+            "共找到1个符合条件的作者，它就是黄河燕",
+            "只有1个满足条件的作者，它就是黄河燕",
+            "满足条件的作者共有1个，它就是黄河燕",
+            "只有黄河燕老师是满足条件的",
+            "为你找到了黄河燕老师，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Author and return",
+        "message": [
+            "共找到2个符合条件的作者，他们是李航和黄河燕",
+            "只有2个满足条件的作者，它们是李航和黄河燕",
+            "满足条件的作者共有2个，它们是李航和黄河燕",
+            "只有李航和黄河燕是满足条件的",
+            "为你找到了李航和黄河燕，它是满足条件的"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Author and ask user for more constraints",
+        "message": [
+            "共找到2个符合条件的作者，您还有什么其他的要求嘛",
+            "只有2个满足条件的作者，您还有什么其他的要求嘛",
+            "满足条件的作者共有2个，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Author and ask user whether output those",
+        "message": [
+            "共找到50个符合条件的作者，你确定要输出嘛",
+            "共有50个满足条件的作者，你确定要输出嘛",
+            "满足条件的作者共有50个，你确定要输出嘛",
+            "共找到50个符合条件的作者，你确定要返回结果嘛",
+            "共有50个满足条件的作者，你确定要返回结果嘛",
+            "满足条件的作者共有50个，你确定要返回结果嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Author and return",
+        "message": [
+            "共找到50个符合条件的作者，点击展开可查看具体信息",
+            "共有50个满足条件的作者，点击展开可查看具体信息",
+            "满足条件的作者共有50个，点击展开可查看具体信息"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Author and ask user for more constraints",
+        "message": [
+            "共找到50个符合条件的作者，您还有什么其他的要求嘛",
+            "共有50个满足条件的作者，您还有什么其他的要求嘛",
+            "满足条件的作者共有50个，您还有什么其他的要求嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问一下人工智能领域的学者",
+            "没有符合条件的会议，你要不问一下人工智能领域的学者",
+            "没找到相应的会议，你要不问一下人工智能领域的学者",
+            "没有相关的会议，你要不问一下人工智能领域的学者",
+            "找到0个相关的会议唉，你要不问一下人工智能领域的学者",
+            "符合条件的会议有0个，你要不问一下人工智能领域的学者"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "field"
+        ],
+        "description": "find two eligible Author and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要研究什么领域的学者呢",
+            "只有2个满足条件的会议，你想要研究什么领域的学者呢",
+            "满足条件的会议共有2个，你想要研究什么领域的学者呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "field"
+        ],
+        "description": "find 50 eligible Author and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要研究什么领域的学者呢",
+            "只有50个满足条件的会议，你想要研究什么领域的学者呢",
+            "满足条件的会议共有50个，你想要研究什么领域的学者呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are affiliation",
+        "message": [
+            "你确定找的是北京大学的学者嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学的学者嘛",
+            "没有符合条件的会议，你确定找的是北京大学的学者嘛",
+            "没找到相应的会议，你确定找的是北京大学的学者嘛",
+            "没有相关的会议，你确定找的是北京大学的学者嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学的学者嘛",
+            "符合条件的会议有0个，你确定找的是北京大学的学者嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问一下清华大学的学者",
+            "没有符合条件的会议，你要不问一下清华大学的学者",
+            "没找到相应的会议，你要不问一下清华大学的学者",
+            "没有相关的会议，你要不问一下清华大学的学者",
+            "找到0个相关的会议唉，你要不问一下清华大学的学者",
+            "符合条件的会议有0个，你要不问一下清华大学的学者"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "affiliation"
+        ],
+        "description": "find two eligible Author and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要在什么机构工作的学者呢",
+            "只有2个满足条件的会议，你想要在什么机构工作的学者呢",
+            "满足条件的会议共有2个，你想要在什么机构工作的学者呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "affiliation"
+        ],
+        "description": "find 50 eligible Author and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要在什么机构工作的学者呢",
+            "只有50个满足条件的会议，你想要在什么机构工作的学者呢",
+            "满足条件的会议共有50个，你想要在什么机构工作的学者呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are position",
+        "message": [
+            "你确定找的是北京大学的教授嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学的教授嘛",
+            "没有符合条件的会议，你确定找的是北京大学的教授嘛",
+            "没找到相应的会议，你确定找的是北京大学的教授嘛",
+            "没有相关的会议，你确定找的是北京大学的教授嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学的教授嘛",
+            "符合条件的会议有0个，你确定找的是北京大学的教授嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and recommend a slot to update",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你要不问一下副教授职称的学者",
+            "没有符合条件的会议，你要不问一下副教授职称的学者",
+            "没找到相应的会议，你要不问一下副教授职称的学者",
+            "没有相关的会议，你要不问一下副教授职称的学者",
+            "找到0个相关的会议唉，你要不问一下副教授职称的学者",
+            "符合条件的会议有0个，你要不问一下副教授职称的学者"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "position"
+        ],
+        "description": "find two eligible Author and require additional slot",
+        "message": [
+            "共找到2个符合条件的会议，你想要什么职称的学者呢",
+            "只有2个满足条件的会议，你想要什么职称的学者呢",
+            "满足条件的会议共有2个，你想要什么职称的学者呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "position"
+        ],
+        "description": "find 50 eligible Author and require additional slot",
+        "message": [
+            "共找到50个符合条件的会议，你想要什么职称的学者呢",
+            "只有50个满足条件的会议，你想要什么职称的学者呢",
+            "满足条件的会议共有50个，你想要什么职称的学者呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field,affiliation",
+        "message": [
+            "你确定找的是北京大学做人工智能领域的学者嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学做人工智能领域的学者嘛",
+            "没有符合条件的会议，你确定找的是北京大学做人工智能领域的学者嘛",
+            "没找到相应的会议，你确定找的是北京大学做人工智能领域的学者嘛",
+            "没有相关的会议，你确定找的是北京大学做人工智能领域的学者嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学做人工智能领域的学者嘛",
+            "符合条件的会议有0个，你确定找的是北京大学做人工智能领域的学者嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field,position",
+        "message": [
+            "你确定找的是人工智能领域的教授嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是人工智能领域的教授嘛",
+            "没有符合条件的会议，你确定找的是人工智能领域的教授嘛",
+            "没找到相应的会议，你确定找的是人工智能领域的教授嘛",
+            "没有相关的会议，你确定找的是人工智能领域的教授嘛",
+            "找到0个相关的会议唉，你确定找的是人工智能领域的教授嘛",
+            "符合条件的会议有0个，你确定找的是人工智能领域的教授嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are affiliation,position",
+        "message": [
+            "你确定找的是北京大学的教授嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学的教授嘛",
+            "没有符合条件的会议，你确定找的是北京大学的教授嘛",
+            "没找到相应的会议，你确定找的是北京大学的教授嘛",
+            "没有相关的会议，你确定找的是北京大学的教授嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学的教授嘛",
+            "符合条件的会议有0个，你确定找的是北京大学的教授嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field,affiliation,position",
+        "message": [
+            "你确定找的是北京大学做人工智能领域的教授嘛"
+        ]
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": [
+            "抱歉没有找到符合条件的会议唉，你确定找的是北京大学做人工智能领域的教授嘛",
+            "没有符合条件的会议，你确定找的是北京大学做人工智能领域的教授嘛",
+            "没找到相应的会议，你确定找的是北京大学做人工智能领域的教授嘛",
+            "没有相关的会议，你确定找的是北京大学做人工智能领域的教授嘛",
+            "找到0个相关的会议唉，你确定找的是北京大学做人工智能领域的教授嘛",
+            "符合条件的会议有0个，你确定找的是北京大学做人工智能领域的教授嘛"
+        ]
+    }
+]

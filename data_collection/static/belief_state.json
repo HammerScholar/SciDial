@@ -1,0 +1,73 @@
+{
+    "Conference": {
+        "semi": {
+            "acronym": [],
+            "year": [],
+            "fullName": [],
+            "paperDue": [],
+            "noticeDue": [],
+            "heldDate": [],
+            "abstractDue": [],
+            "finalDue": [],
+            "location": [],
+            "category": [],
+            "ccf": [],
+            "website": [],
+            "bestPaper": [],
+            "confRelated": [],
+            "journalRelated": []
+        }
+    },
+    "Paper": {
+        "semi": {
+            "doi": [],
+            "title": [],
+            "author": [],
+            "venue": [],
+            "year": [],
+            "institution": [],
+            "abstract": [],
+            "pdf": [],
+            "blog": []
+        },
+        "download": {
+            "path": []
+        }
+    },
+    "Journal": {
+        "semi": {
+            "name": [],
+            "ISSN": [],
+            "E_ISSN": [],
+            "IF": [],
+            "h_index": [],
+            "self_citing": [],
+            "ccf": [],
+            "sci": [],
+            "website": [],
+            "submit": [],
+            "OA": [],
+            "category": [],
+            "speed": [],
+            "rate": []
+        }
+    },
+    "Author": {
+        "semi": {
+            "name": [],
+            "field": [],
+            "affiliation": [],
+            "position": [],
+            "citations": [],
+            "h_index": [],
+            "pubs": []
+        }
+    },
+    "Institution":{
+        "semi": {
+            "name": [],
+            "address": [],
+            "website": []
+        }
+    }
+}

@@ -1,0 +1,5296 @@
+[
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "acronym"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Conference and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "acronym"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Conference and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Conference and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Conference and ask user whether output those",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "acronym"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Conference and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Conference and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "paperDue"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "paperDue"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "noticeDue"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "noticeDue"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "heldDate"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "heldDate"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "location"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "location"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find two eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find 50 eligible Conference and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are location,category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are paperDue,location,category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "paperDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are noticeDue,location,category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "noticeDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are heldDate,location,category,ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend",
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "heldDate",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Conference and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Paper and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Paper and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Paper and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Paper and ask user whether output those",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Paper and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Paper and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "author"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "author"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "institution"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "institution"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are venue",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "venue"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "venue"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "year"
+        ],
+        "description": "find two eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "year"
+        ],
+        "description": "find 50 eligible Paper and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author,venue",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution,venue",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author,year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution,year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are venue,year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "author",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are author,venue,year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "author",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "institution",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are institution,venue,year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend",
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "institution",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Paper and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Journal and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Journal and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Journal and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Journal and ask user whether output those",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Journal and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Journal and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "IF"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "IF"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "sci"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "sci"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "OA"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "OA"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find two eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "find 50 eligible Journal and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF,OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index,OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf,OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci,OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are OA,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "IF",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are IF,OA,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "IF",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are h_index,OA,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "h_index",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are ccf,OA,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "ccf",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "sci",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are sci,OA,category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend",
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "sci",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Journal and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-1",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find one eligible Author and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-2",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Author and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [],
+        "description": "find two eligible Author and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Author and ask user whether output those",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-50",
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Author and return",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [],
+        "description": "find 50 eligible Author and ask user for more constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "field"
+        ],
+        "description": "find two eligible Author and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "field"
+        ],
+        "description": "find 50 eligible Author and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are affiliation",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "affiliation"
+        ],
+        "description": "find two eligible Author and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "affiliation"
+        ],
+        "description": "find 50 eligible Author and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are position",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "choice-0",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and recommend a slot to update",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-2"
+        ],
+        "requested_slot": [
+            "position"
+        ],
+        "description": "find two eligible Author and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Reqmore"
+        ],
+        "required_slot": [
+            "choice-50"
+        ],
+        "requested_slot": [
+            "position"
+        ],
+        "description": "find 50 eligible Author and require additional slot",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field,affiliation",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field,position",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are affiliation,position",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm whether constraints are field,affiliation,position",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend",
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "choice-0",
+            "field",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "cannot find eligible Author and confirm constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "fullName"
+        ],
+        "requested_slot": [],
+        "description": "find the value of fullName",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "fullName"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of fullName",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "fullName"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "find the value of paperDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of paperDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "paperDue"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "find the value of noticeDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of noticeDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "noticeDue"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "find the value of heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "heldDate"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "find the value of abstractDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of abstractDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "abstractDue"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "find the value of finalDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of finalDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "finalDue"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "find the value of location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "location"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "find the value of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "find the value of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "find the value of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "bestPaper"
+        ],
+        "requested_slot": [],
+        "description": "find the value of bestPaper",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "bestPaper"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of bestPaper",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "bestPaper"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "confRelated"
+        ],
+        "requested_slot": [],
+        "description": "find the value of confRelated",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "confRelated"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of confRelated",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "confRelated"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "journalRelated"
+        ],
+        "requested_slot": [],
+        "description": "find the value of journalRelated",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "journalRelated"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of journalRelated",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Recommend"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "journalRelated"
+        ],
+        "description": "recommend other slot of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "find the value of paperDue,abstractDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of paperDue,abstractDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "find the value of paperDue,finalDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of paperDue,finalDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "find the value of noticeDue,heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of noticeDue,heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "find the value of heldDate,location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoInform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of heldDate,location",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "doi"
+        ],
+        "requested_slot": [],
+        "description": "find the value of doi",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "doi"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of doi",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "doi"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "find the value of author",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of author",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "author"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "find the value of venue",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of venue",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "venue"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "find the value of year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "year"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "find the value of institution",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of institution",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "institution"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "abstract"
+        ],
+        "requested_slot": [],
+        "description": "find the value of abstract",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "abstract"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of abstract",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "abstract"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "pdf"
+        ],
+        "requested_slot": [],
+        "description": "find the value of pdf",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "pdf"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of pdf",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "pdf"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "video"
+        ],
+        "requested_slot": [],
+        "description": "find the value of video",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "video"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of video",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "video"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "blog"
+        ],
+        "requested_slot": [],
+        "description": "find the value of blog",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "blog"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of blog",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Recommend"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "blog"
+        ],
+        "description": "recommend other slot of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "video",
+            "blog"
+        ],
+        "requested_slot": [],
+        "description": "find the value of video,blog",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoInform"
+        ],
+        "required_slot": [
+            "title",
+            "video",
+            "blog"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of video,blog",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "ISSN"
+        ],
+        "requested_slot": [],
+        "description": "find the value of ISSN",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "ISSN"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of ISSN",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "ISSN"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "E_ISSN"
+        ],
+        "requested_slot": [],
+        "description": "find the value of E_ISSN",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "E_ISSN"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of E_ISSN",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "E_ISSN"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "find the value of IF",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of IF",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "IF"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "find the value of h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "find the value of self_citing",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of self_citing",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "self_citing"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "find the value of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "find the value of sci",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of sci",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "sci"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "find the value of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "submit"
+        ],
+        "requested_slot": [],
+        "description": "find the value of submit",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "submit"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of submit",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "submit"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "find the value of OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "OA"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "find the value of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "speed"
+        ],
+        "requested_slot": [],
+        "description": "find the value of speed",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "speed"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of speed",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "speed"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "rate"
+        ],
+        "requested_slot": [],
+        "description": "find the value of rate",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "rate"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of rate",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "rate"
+        ],
+        "description": "recommend other slot of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "website",
+            "submit"
+        ],
+        "requested_slot": [],
+        "description": "find the value of website,submit",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "website",
+            "submit"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of website,submit",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "find the value of field",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of field",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "field"
+        ],
+        "description": "recommend other slot of Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "find the value of affiliation",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of affiliation",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "affiliation"
+        ],
+        "description": "recommend other slot of Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "find the value of position",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of position",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "position"
+        ],
+        "description": "recommend other slot of Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "citations"
+        ],
+        "requested_slot": [],
+        "description": "find the value of citations",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "citations"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of citations",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "citations"
+        ],
+        "description": "recommend other slot of Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "find the value of h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "recommend other slot of Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "pubs"
+        ],
+        "requested_slot": [],
+        "description": "find the value of pubs",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "pubs"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of pubs",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "pubs"
+        ],
+        "description": "recommend other slot of Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "address"
+        ],
+        "requested_slot": [],
+        "description": "find the value of address",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "address"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of address",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "address"
+        ],
+        "description": "recommend other slot of Institution",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "find the value of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-NoInform"
+        ],
+        "required_slot": [
+            "name",
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "there is no detail of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-Recommend"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "recommend other slot of Institution",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Positive"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "When user confirms, give positive answer",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "title",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "when system confirms, give negative answer and true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Check"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "Receive the doubt, and we will check after",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "negative doubt from user",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Browse"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Can browse the website of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-NoBrowse"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Cannot browse the website of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Browse"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Can browse the website of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoBrowse"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Cannot browse the website of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Browse"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "Can browse the website of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-NoBrowse"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "Cannot browse the website of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Reqmore"
+        ],
+        "required_slot": [],
+        "requested_slot": [
+            "path"
+        ],
+        "description": "require download path",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "title",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "succeed download",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoDownload"
+        ],
+        "required_slot": [
+            "title",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "fail to download",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "pdf",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "succeed download",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-NoDownload"
+        ],
+        "required_slot": [
+            "pdf",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "fail to download",
+        "message": []
+    }
+]

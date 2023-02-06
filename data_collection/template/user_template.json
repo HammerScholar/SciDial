@@ -1,0 +1,4953 @@
+[
+    {
+        "action": [
+            "General-Positive"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "When system confirms, give positive answer",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Update paperDue; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Add paperDue; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Update noticeDue; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Add noticeDue; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Update heldDate; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Add heldDate; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Given location; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Update location; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Add location; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Update category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Add category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Update ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Add ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue,location; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue,location; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate,location; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue,category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue,category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate,category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given location,category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given location,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue,location,category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue,location,category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate,location,category; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue,location,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue,location,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate,location,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue,category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue,category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate,category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given location,category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given paperDue,location,category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "paperDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given noticeDue,location,category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "noticeDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given heldDate,location,category,ccf; Recommend Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "heldDate",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "Given author; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "Update author; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "Add author; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "Given institution; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "Update institution; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "Add institution; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Given venue; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Update venue; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Add venue; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Given year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Update year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Add year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "author",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Given author,venue; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "author",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "author",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "institution",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Given institution,venue; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "institution",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "institution",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "author",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Given author,year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "author",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "author",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "institution",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Given institution,year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "institution",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "institution",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Given venue,year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "author",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Given author,venue,year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "author",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "author",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "institution",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Given institution,venue,year; Recommend Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "institution",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "institution",
+            "venue",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Given IF; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Update IF; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Add IF; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Given h_index; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Update h_index; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Add h_index; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Given ccf; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Update ccf; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Add ccf; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Given sci; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Update sci; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Add sci; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Given OA; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Update OA; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Add OA; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Update category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Add category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "IF",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Given IF,OA; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "IF",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "IF",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Given h_index,OA; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Given ccf,OA; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "sci",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Given sci,OA; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "sci",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "sci",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "IF",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given IF,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "IF",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "IF",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "h_index",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given h_index,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "h_index",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "h_index",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "ccf",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given ccf,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "ccf",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "sci",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given sci,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "sci",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "sci",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given OA,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "IF",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given IF,OA,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "IF",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "IF",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given h_index,OA,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "h_index",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given ccf,OA,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "ccf",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "sci",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Given sci,OA,category; Recommend Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "sci",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "sci",
+            "OA",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "Given field; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "Update field; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Add"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "Add field; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Given affiliation; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Update affiliation; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Add"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Add affiliation; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Given position; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Update position; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then update a constraint to continue searching",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Update",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error and update the wrong constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Add"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Add position; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Add",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When choice>=4 and system confirms whether output, give negative answer and add constraints",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Given field,affiliation; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "field",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Given field,position; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "field",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "field",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Given affiliation,position; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Given field,affiliation,position; Recommend Author",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Positive"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When choice=0 and system confirms, give positive answer then inform again",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Inform",
+            "General-Negative"
+        ],
+        "required_slot": [
+            "field",
+            "affiliation",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "When system confirms, find error then claim statement again",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "fullName"
+        ],
+        "description": "Request detail of fullName",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "paperDue"
+        ],
+        "description": "Request detail of paperDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "noticeDue"
+        ],
+        "description": "Request detail of noticeDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "heldDate"
+        ],
+        "description": "Request detail of heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "abstractDue"
+        ],
+        "description": "Request detail of abstractDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "finalDue"
+        ],
+        "description": "Request detail of finalDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "location"
+        ],
+        "description": "Request detail of location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "Request detail of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "Request detail of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "Request detail of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "bestPaper"
+        ],
+        "description": "Request detail of bestPaper",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "confRelated"
+        ],
+        "description": "Request detail of confRelated",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "journalRelated"
+        ],
+        "description": "Request detail of journalRelated",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "paperDue",
+            "abstractDue"
+        ],
+        "description": "Request detail of paperDue,abstractDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "paperDue",
+            "finalDue"
+        ],
+        "description": "Request detail of paperDue,finalDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "noticeDue",
+            "heldDate"
+        ],
+        "description": "Request detail of noticeDue,heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "heldDate",
+            "location"
+        ],
+        "description": "Request detail of heldDate,location",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "doi"
+        ],
+        "description": "Request detail of doi",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "author"
+        ],
+        "description": "Request detail of author",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "venue"
+        ],
+        "description": "Request detail of venue",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "year"
+        ],
+        "description": "Request detail of year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "institution"
+        ],
+        "description": "Request detail of institution",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "abstract"
+        ],
+        "description": "Request detail of abstract",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "pdf"
+        ],
+        "description": "Request detail of pdf",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "video"
+        ],
+        "description": "Request detail of video",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "blog"
+        ],
+        "description": "Request detail of blog",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "video",
+            "blog"
+        ],
+        "description": "Request detail of video,blog",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "ISSN"
+        ],
+        "description": "Request detail of ISSN",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "E_ISSN"
+        ],
+        "description": "Request detail of E_ISSN",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "IF"
+        ],
+        "description": "Request detail of IF",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "Request detail of h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "self_citing"
+        ],
+        "description": "Request detail of self_citing",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "Request detail of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "sci"
+        ],
+        "description": "Request detail of sci",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "Request detail of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "submit"
+        ],
+        "description": "Request detail of submit",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "OA"
+        ],
+        "description": "Request detail of OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "Request detail of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "speed"
+        ],
+        "description": "Request detail of speed",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "rate"
+        ],
+        "description": "Request detail of rate",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website",
+            "submit"
+        ],
+        "description": "Request detail of website,submit",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "field"
+        ],
+        "description": "Request detail of field",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "affiliation"
+        ],
+        "description": "Request detail of affiliation",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "position"
+        ],
+        "description": "Request detail of position",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "citations"
+        ],
+        "description": "Request detail of citations",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "Request detail of h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "pubs"
+        ],
+        "description": "Request detail of pubs",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "address"
+        ],
+        "description": "Request detail of address",
+        "message": []
+    },
+    {
+        "action": [
+            "Institution-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "Request detail of website",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of paperDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of noticeDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of heldDate",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of abstractDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of finalDue",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of location",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Confirm"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "author"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of author",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "venue"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of venue",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of year",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Confirm"
+        ],
+        "required_slot": [
+            "title",
+            "institution"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of institution",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of IF",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of h_index",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of self_citing",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of ccf",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of sci",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of OA",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of category",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "field"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of field",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "affiliation"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of affiliation",
+        "message": []
+    },
+    {
+        "action": [
+            "Author-Confirm"
+        ],
+        "required_slot": [
+            "name",
+            "position"
+        ],
+        "requested_slot": [],
+        "description": "Confirm detail of position",
+        "message": []
+    },
+    {
+        "action": [
+            "General-Doubt"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "Doubt to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Doubt"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Doubt"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "Doubt specific slot to system response",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Browse"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Conference-Browse"
+        ],
+        "required_slot": [
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Conference",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Browse"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Browse"
+        ],
+        "required_slot": [
+            "pdf"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Paper",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Browse"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Journal-Browse"
+        ],
+        "required_slot": [
+            "website"
+        ],
+        "requested_slot": [],
+        "description": "Browse the website of Journal",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "title",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper with path",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper without path",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Inform"
+        ],
+        "required_slot": [
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "tell path",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "pdf",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper with path",
+        "message": []
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "pdf"
+        ],
+        "requested_slot": [],
+        "description": "Download the paper without path",
+        "message": []
+    }
+]

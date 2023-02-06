@@ -1,0 +1,151 @@
+{
+    "Recommend": {
+        "Conference": [
+            ["paperDue", "noticeDue", "heldDate"],
+            "location",
+            "category",
+            "ccf"
+        ],
+        "Paper": [
+            ["author", "institution"],
+            "venue",
+            "year"
+        ],
+        "Journal": [
+            ["IF", "h_index", "ccf", "sci"],
+            "category"
+        ],
+        "Author": [
+            "field",
+            "institution",
+            "position"
+        ]
+    },
+    "Request": {
+        "Conference": [
+            "fullName",
+            "paperDue", 
+            "noticeDue",
+            "heldDate", 
+            "abstractDue",
+            "finalDue",
+            "location",
+            "category",
+            "ccf",
+            "website",
+            "bestPaper",
+            "confRelated",
+            "journalRelated"
+        ],
+        "Paper": [
+            "doi",
+            "author",
+            "venue",
+            "year",
+            "institution",
+            "abstract",
+            "pdf",
+            "blog"
+        ],
+        "Journal": [
+            "ISSN",
+            "E_ISSN",
+            "IF", 
+            "h_index",
+            "self_citing",
+            "ccf", 
+            "sci",
+            "website",
+            "submit",
+            "OA",
+            "category",
+            "speed",
+            "rate"
+        ],
+        "Author": [
+            "field",
+            "institution",
+            "position",
+            "citations",
+            "h_index",
+            "pubs"
+        ],
+        "Institution": [
+            "address",
+            "website"
+        ]
+    },
+    "Confirm": {
+        "Conference": [
+            "paperDue", 
+            "noticeDue",
+            "heldDate", 
+            "abstractDue",
+            "finalDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "Paper": [
+            "author",
+            "venue",
+            "year",
+            "institution"
+        ],
+        "Journal": [
+            "IF", 
+            "h_index",
+            "self_citing",
+            "ccf", 
+            "sci",
+            "OA",
+            "category"
+        ],
+        "Author": [
+            "field",
+            "institution",
+            "position"
+        ]
+    },
+    "Doubt": {
+        "Conference": [
+            "paperDue", 
+            "noticeDue",
+            "heldDate", 
+            "abstractDue",
+            "finalDue",
+            "location",
+            "category",
+            "ccf"
+        ],
+        "Journal": [
+            "IF", 
+            "h_index",
+            "self_citing",
+            "ccf", 
+            "sci",
+            "OA",
+            "category"
+        ]
+    },
+    "Browse": {
+        "Conference": [
+            "acronym year",
+            "website"
+        ],
+        "Paper": [
+            "title",
+            "pdf"
+        ],
+        "Journal": [
+            "name",
+            "website"
+        ]
+    },
+    "Download": {
+        "Paper": [
+            "title",
+            "pdf"
+        ]
+    }
+}

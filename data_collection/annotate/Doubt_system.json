@@ -1,0 +1,326 @@
+[
+    {
+        "action": [
+            "General-Check"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "Receive the doubt, and we will check after",
+        "message": [
+            "我们收到了您的反馈，之后将由人工核查一下",
+            "我们收到了您的反馈，已提交人工进行核查",
+            "我们收到了您的反馈，已提交人工进行核查，若发现问题将第一时间纠正错误",
+            "我们收到了您的反馈，稍后将交由人工进行核查",
+            "我们收到了您的反馈，我们将稍后统一进行核查",
+            "我们收到了您的反馈，针对此类问题我们将稍后统一进行核查",
+            "我们收到了您的反馈，针对此类问题我们将稍后统一进行核查，感谢您的配合",
+            "我们收到了您的质疑，稍后将交由人工进行核查，核查结果会用以更新我们的系统"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative"
+        ],
+        "required_slot": [],
+        "requested_slot": [],
+        "description": "negative doubt from user",
+        "message": [
+            "你说的不对",
+            "你理解不错",
+            "你记错了",
+            "不是这样的",
+            "你说的数据是错的"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "paperDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL2022的截稿时间是XXX",
+            "你理解不错，ACL2022的截稿时间是XXX",
+            "你记错了，ACL2022的截稿时间是XXX",
+            "不是这样的，ACL2022的截稿时间是XXX",
+            "你说的数据是错的，ACL2022的截稿时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "noticeDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL2022的通知时间是XXX",
+            "你理解不错，ACL2022的通知时间是XXX",
+            "你记错了，ACL2022的通知时间是XXX",
+            "不是这样的，ACL2022的通知时间是XXX",
+            "你说的数据是错的，ACL2022的通知时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "heldDate"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL2022的举行时间是XXX",
+            "你理解不错，ACL2022的举行时间是XXX",
+            "你记错了，ACL2022的举行时间是XXX",
+            "不是这样的，ACL2022的举行时间是XXX",
+            "你说的数据是错的，ACL2022的举行时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "abstractDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL2022的摘要截稿时间是XXX",
+            "你理解不错，ACL2022的摘要截稿时间是XXX",
+            "你记错了，ACL2022的摘要截稿时间是XXX",
+            "不是这样的，ACL2022的摘要截稿时间是XXX",
+            "你说的数据是错的，ACL2022的摘要截稿时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "finalDue"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL2022的最终版截稿时间是XXX",
+            "你理解不错，ACL2022的最终版截稿时间是XXX",
+            "你记错了，ACL2022的最终版截稿时间是XXX",
+            "不是这样的，ACL2022的最终版截稿时间是XXX",
+            "你说的数据是错的，ACL2022的最终版截稿时间是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "year",
+            "location"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL2022的举行地点是XXX",
+            "你理解不错，ACL2022的举行地点是XXX",
+            "你记错了，ACL2022的举行地点是XXX",
+            "不是这样的，ACL2022的举行地点是XXX",
+            "你说的数据是错的，ACL2022的举行地点是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL会议的研究领域有XXX",
+            "你理解不错，ACL会议的研究领域有XXX",
+            "你记错了，ACL会议的研究领域有XXX",
+            "不是这样的，ACL会议的研究领域有XXX",
+            "你说的数据是错的，ACL会议的研究领域有XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Conference-Inform"
+        ],
+        "required_slot": [
+            "acronym",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，ACL会议是XXX会议",
+            "你理解不错，ACL会议是XXX会议",
+            "你记错了，ACL会议是XXX会议",
+            "不是这样的，ACL会议是XXX会议",
+            "你说的数据是错的，ACL会议是XXX会议"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "IF"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，TOIS期刊的IF影响因子是XXX",
+            "你理解不错，TOIS期刊的IF影响因子是XXX",
+            "你记错了，TOIS期刊的IF影响因子是XXX",
+            "不是这样的，TOIS期刊的IF影响因子是XXX",
+            "你说的数据是错的，TOIS期刊的IF影响因子是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "h_index"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，TOIS期刊的h5指数是XXX",
+            "你理解不错，TOIS期刊的h5指数是XXX",
+            "你记错了，TOIS期刊的h5指数是XXX",
+            "不是这样的，TOIS期刊的h5指数是XXX",
+            "你说的数据是错的，TOIS期刊的h5指数是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "self_citing"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，TOIS期刊的自引率是XXX",
+            "你理解不错，TOIS期刊的自引率是XXX",
+            "你记错了，TOIS期刊的自引率是XXX",
+            "不是这样的，TOIS期刊的自引率是XXX",
+            "你说的数据是错的，TOIS期刊的自引率是XXX"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "ccf"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，TOIS期刊是XXX期刊",
+            "你理解不错，TOIS期刊是XXX期刊",
+            "你记错了，TOIS期刊是XXX期刊",
+            "不是这样的，TOIS期刊是XXX期刊",
+            "你说的数据是错的，TOIS期刊是XXX期刊"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "sci"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，TOIS期刊是XXX期刊",
+            "你理解不错，TOIS期刊是XXX期刊",
+            "你记错了，TOIS期刊是XXX期刊",
+            "不是这样的，TOIS期刊是XXX期刊",
+            "你说的数据是错的，TOIS期刊是XXX期刊"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "OA"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，TOIS期刊XXX开放访问",
+            "你理解不错，TOIS期刊XXX开放访问",
+            "你记错了，TOIS期刊XXX开放访问",
+            "不是这样的，TOIS期刊XXX开放访问",
+            "你说的数据是错的，TOIS期刊XXX开放访问"
+        ]
+    },
+    {
+        "action": [
+            "General-Negative",
+            "Journal-Inform"
+        ],
+        "required_slot": [
+            "name",
+            "category"
+        ],
+        "requested_slot": [],
+        "description": "negative doubt from user and inform true value",
+        "message": [
+            "你说的不对，TOIS期刊的研究领域有XXX",
+            "你理解不错，TOIS期刊的研究领域有XXX",
+            "你记错了，TOIS期刊的研究领域有XXX",
+            "不是这样的，TOIS期刊的研究领域有XXX",
+            "你说的数据是错的，TOIS期刊的研究领域有XXX"
+        ]
+    }
+]

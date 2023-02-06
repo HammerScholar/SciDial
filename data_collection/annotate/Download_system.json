@@ -1,0 +1,49 @@
+[
+    {
+        "action": [
+            "Paper-Reqmore"
+        ],
+        "required_slot": [],
+        "requested_slot": [
+            "path"
+        ],
+        "description": "require download path",
+        "message": [
+            "你想要下载到本地的什么位置呢",
+            "您的本地下载路径是什么呢",
+            "请告诉一下我们你想要下载到哪里呢",
+            "你想要下载到本地哪里呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Download"
+        ],
+        "required_slot": [
+            "title",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "succeed download",
+        "message": [
+            "我们为你成功下载到桌面上",
+            "我们为你成功下载到桌面上，请注意查收",
+            "已为你成功下载到桌面上"
+        ]
+    },
+    {
+        "action": [
+            "Paper-NoDownload"
+        ],
+        "required_slot": [
+            "title",
+            "path"
+        ],
+        "requested_slot": [],
+        "description": "fail to download",
+        "message": [
+            "抱歉无法为你下载此论文",
+            "可能是因为缺乏权限，无法为你下载此论文"
+        ]
+    }
+]

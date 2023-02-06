@@ -1,0 +1,1147 @@
+[
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "fullName"
+        ],
+        "description": "Request detail of fullName",
+        "message": [
+            "ACL2022会议的全称是什么呢",
+            "你知道ACL2022会议的全称是什么吗",
+            "请问ACL2022会议的全称是什么呢",
+            "咨询一下ACL2022会议的全称是什么呢",
+            "ACL2022会议的全称叫什么",
+            "你好ACL2022会议的全称是什么呢",
+            "你知道ACL2022会议的全称叫什么呢",
+            "请问ACL2022会议的全称叫什么呢",
+            "ACL2022会议是什么意思"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "paperDue"
+        ],
+        "description": "Request detail of paperDue",
+        "message": [
+            "ACL2022什么时候截稿呢",
+            "ACL2022的截稿时间是什么呢",
+            "ACL2022的截稿日期是什么呢",
+            "到什么时候ACL2022截稿呢",
+            "你知道ACL2022什么时候截稿呢",
+            "请问ACL2022的截稿时间是什么呢",
+            "咨询一下ACL2022的截稿日期是什么呢",
+            "你知道到什么时候ACL2022截稿呢",
+            "告诉我ACL2022的截稿日期是什么",
+            "你知道到什么时候ACL2022截稿呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "noticeDue"
+        ],
+        "description": "Request detail of noticeDue",
+        "message": [
+            "ACL 2022什么时候通知呢",
+            "ACL2022的通知时间是什么呢",
+            "ACL2022的通知日期是什么呢",
+            "到什么时候ACL2022通知呢",
+            "你知道ACL2022什么时候通知呢",
+            "请问ACL2022的通知时间是什么呢",
+            "咨询一下ACL2022的通知日期是什么呢",
+            "你知道到什么时候ACL2022通知呢",
+            "告诉我ACL2022的通知日期是什么",
+            "你知道到什么时候ACL2022通知呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "heldDate"
+        ],
+        "description": "Request detail of heldDate",
+        "message": [
+            "ACL 2022什么时候举办呢",
+            "ACL2022的举办时间是什么呢",
+            "ACL2022的举办日期是什么呢",
+            "到什么时候ACL2022举办呢",
+            "你知道ACL2022什么时候举办呢",
+            "请问ACL2022的举办时间是什么呢",
+            "咨询一下ACL2022的举办日期是什么呢",
+            "你知道到什么时候ACL2022举办呢",
+            "告诉我ACL2022的举办日期是什么",
+            "你知道到什么时候ACL2022举办呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "abstractDue"
+        ],
+        "description": "Request detail of abstractDue",
+        "message": [
+            "ACL 2022什么时候截止提交摘要呢",
+            "ACL2022的截止提交摘要时间是什么呢",
+            "ACL2022的截止提交摘要日期是什么呢",
+            "到什么时候ACL2022截止提交摘要呢",
+            "你知道ACL2022什么时候截止提交摘要呢",
+            "请问ACL2022的截止提交摘要时间是什么呢",
+            "咨询一下ACL2022的截止提交摘要日期是什么呢",
+            "你知道到什么时候ACL2022截止提交摘要呢",
+            "告诉我ACL2022的截止提交摘要日期是什么",
+            "你知道到什么时候ACL2022截止提交摘要呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "finalDue"
+        ],
+        "description": "Request detail of finalDue",
+        "message": [
+            "ACL 2022什么时候截止提交最终版论文呢",
+            "ACL2022的截止提交最终版论文时间是什么呢",
+            "ACL2022的截止提交最终版论文日期是什么呢",
+            "到什么时候ACL2022截止提交最终版论文呢",
+            "你知道ACL2022什么时候截止提交最终版论文呢",
+            "请问ACL2022的截止提交最终版论文时间是什么呢",
+            "咨询一下ACL2022的截止提交最终版论文日期是什么呢",
+            "你知道到什么时候ACL2022截止提交最终版论文呢",
+            "告诉我ACL2022的截止提交最终版论文日期是什么",
+            "你知道到什么时候ACL2022截止提交最终版论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "location"
+        ],
+        "description": "Request detail of location",
+        "message": [
+            "ACL 2022在哪里举办呢",
+            "ACL2022的举办地方是什么呢",
+            "ACL2022的举办地点是什么呢",
+            "ACL2022在什么地方举办呢",
+            "你知道ACL2022在哪举办呢",
+            "请问ACL2022的举办地址是什么呢",
+            "咨询一下ACL2022的举办地点是什么呢",
+            "你知道ACL2022在什么地方举办呢",
+            "告诉我ACL2022的举办地址是什么",
+            "你知道ACL2022举办地点在哪呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "Request detail of category",
+        "message": [
+            "ACL属于什么领域的会议呢",
+            "ACL是什么领域的会议呢",
+            "ACL涉及什么领域呢",
+            "ACL主要是研究什么方向的会议",
+            "ACL的研究内容是什么方向的",
+            "你知道ACL属于什么领域的会议呢",
+            "请问ACL是什么领域的会议呢",
+            "咨询一下ACL涉及什么领域呢",
+            "告诉我ACL主要是研究什么方向的会议",
+            "介绍一下ACL是什么领域的会议呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "Request detail of ccf",
+        "message": [
+            "ACL会议的ccf级别是什么呢",
+            "ACL是什么ccf级别的会议呢",
+            "ACL是什么ccf级别呢",
+            "ACL主要是什么ccf级别的会议",
+            "ACL属于什么ccf级别",
+            "你知道ACL会议的ccf级别是什么呢",
+            "请问ACL会议的ccf级别是什么呢",
+            "咨询一下ACL会议的ccf级别是什么呢",
+            "告诉我ACL会议的ccf级别是什么呢",
+            "介绍一下ACL会议的ccf级别是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "Request detail of website",
+        "message": [
+            "ACL2022会议的官网是什么呢",
+            "ACL2022在哪里找官方信息呢",
+            "ACL2022会议的官网链接是什么",
+            "ACL2022会议的官网链接去哪找",
+            "什么是ACL2022会议的官网",
+            "你知道ACL2022会议的官网是什么呢",
+            "你知道ACL2022在哪里找官方信息呢",
+            "请问ACL2022会议的官网链接是什么",
+            "你知道ACL2022会议的官网链接去哪找",
+            "介绍一下ACL2022会议的官网"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "bestPaper"
+        ],
+        "description": "Request detail of bestPaper",
+        "message": [
+            "ACL有哪些最佳论文呢",
+            "ACL有哪些很不错的论文呢",
+            "你知道ACL有哪些最佳论文呢",
+            "请问ACL有哪些最佳论文呢",
+            "介绍一下ACL有哪些很不错的论文呢",
+            "ACL的最佳论文有哪些",
+            "你知道ACL的最佳论文有哪些",
+            "请问ACL的最佳论文有哪些",
+            "咨询一下ACL的最佳论文有哪些",
+            "你知道ACL的最佳论文有哪些"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "confRelated"
+        ],
+        "description": "Request detail of confRelated",
+        "message": [
+            "ACL有哪些相关会议呢",
+            "ACL有哪些与之有关的会议呢",
+            "你知道ACL有哪些相关会议呢",
+            "请问ACLACL有哪些相关会议呢",
+            "介绍一下ACL有哪些相关会议呢",
+            "ACL的相关会议有哪些",
+            "你知道ACL的相关会议有哪些",
+            "请问ACL的相关会议有哪些",
+            "咨询一下ACL的相关会议有哪些",
+            "你知道ACL的相关会议有哪些"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym"
+        ],
+        "requested_slot": [
+            "journalRelated"
+        ],
+        "description": "Request detail of journalRelated",
+        "message": [
+            "ACL有哪些相关期刊呢",
+            "ACL有哪些与之有关的期刊呢",
+            "你知道ACL有哪些相关期刊呢",
+            "请问ACLACL有哪些相关期刊呢",
+            "介绍一下ACL有哪些相关期刊呢",
+            "ACL的相关期刊有哪些",
+            "你知道ACL的相关期刊有哪些",
+            "请问ACL的相关期刊有哪些",
+            "咨询一下ACL的相关期刊有哪些",
+            "你知道ACL的相关期刊有哪些"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "paperDue",
+            "abstractDue"
+        ],
+        "description": "Request detail of paperDue,abstractDue",
+        "message": [
+            "ACL 2022分别什么时候截止提交摘要和论文呢",
+            "ACL2022的截止提交摘要和论文时间分别是什么呢",
+            "ACL2022的截止提交摘要和论文时间分别是什么呢",
+            "到什么时候ACL2022分别截止提交摘要和论文呢",
+            "你知道ACL2022什么时候截止提交摘要和论文呢",
+            "请问ACL2022的截止提交摘要和论文时间分别是什么呢",
+            "咨询一下ACL2022的截止提交摘要和论文时间分别是什么呢",
+            "你知道到什么时候ACL2022分别截止提交摘要和论文呢",
+            "告诉我ACL2022的截止提交摘要和论文时间分别是什么",
+            "你知道到什么时候ACL2022分别截止提交摘要和论文呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "paperDue",
+            "finalDue"
+        ],
+        "description": "Request detail of paperDue,finalDue",
+        "message": [
+            "ACL 2022什么时候截稿呢，又什么时候截止提交最终版呢",
+            "ACL2022的截稿时间和最终版截止时间分别是什么呢",
+            "ACL2022的截稿时间和最终版截止日期分别是什么呢",
+            "到什么时候ACL2022分别截稿和最终版截止呢",
+            "你知道ACL2022什么时候截稿和最终版截止呢",
+            "请问ACL2022的截稿时间和最终版截止时间分别是什么呢",
+            "咨询一下ACL2022的截稿时间和最终版截止时间分别是什么呢",
+            "你知道到什么时候ACL2022分别截稿和最终版截止呢",
+            "告诉我ACL2022的截稿时间和最终版截止时间分别是什么",
+            "你知道到什么时候ACL2022分别截稿和最终版截止呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "noticeDue",
+            "heldDate"
+        ],
+        "description": "Request detail of noticeDue,heldDate",
+        "message": [
+            "ACL 2022计划什么时候发布通告和举行呢",
+            "ACL2022的发布通告和举行时间分别是什么呢",
+            "ACL2022的发布通告和举行日期分别是什么呢",
+            "到什么时候ACL2022分别发布通告和举行呢",
+            "你知道ACL2022什么时候发布通告和举行呢",
+            "请问ACL2022的发布通告和举行时间分别是什么呢",
+            "咨询一下ACL2022的发布通告和举行时间分别是什么呢",
+            "你知道到什么时候ACL2022分别发布通告和举行呢",
+            "告诉我ACL2022的发布通告和举行时间分别是什么",
+            "你知道到什么时候ACL2022分别发布通告和举行呢"
+        ]
+    },
+    {
+        "action": [
+            "Conference-Request"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [
+            "heldDate",
+            "location"
+        ],
+        "description": "Request detail of heldDate,location",
+        "message": [
+            "ACL 2022在何时何地举行呢",
+            "ACL2022的举行时间地点分别是什么呢",
+            "ACL2022的举行时间和地点分别是什么呢",
+            "到什么时候ACL2022举行，地点呢",
+            "你知道ACL2022什么时候举行，在什么地方举行呢",
+            "请问ACL2022的举行时间地点分别是什么呢",
+            "咨询一下ACL2022的举行时间地点分别是什么呢",
+            "你知道到ACL2022的举行时间和地点分别是什么呢",
+            "告诉我ACL2022的举行时间和地点分别是什么",
+            "你知道ACL 2022在何时何地举行呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "doi"
+        ],
+        "description": "Request detail of doi",
+        "message": [
+            "那么这篇论文的doi是什么呢",
+            "这篇论文的doi是什么",
+            "这篇论文的doi是什么",
+            "你知道这篇论文的doi是什么吗",
+            "请问这篇论文的doi是什么",
+            "这篇论文的doi是什么",
+            "咨询一下这篇论文的doi是什么",
+            "介绍这篇论文的doi是什么",
+            "你好这篇论文的doi是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "author"
+        ],
+        "description": "Request detail of author",
+        "message": [
+            "那么这篇论文的作者是谁呢",
+            "这篇论文的作者是什么",
+            "这篇论文的撰稿人是什么",
+            "你知道这篇论文的作者是什么吗",
+            "请问这篇论文的作者是什么",
+            "这篇论文的具体作者是什么",
+            "咨询一下这篇论文的作者是什么",
+            "这篇论文是谁写的",
+            "介绍这篇论文的作者是什么",
+            "你好这篇论文的作者是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "venue"
+        ],
+        "description": "Request detail of venue",
+        "message": [
+            "那么这篇论文发表在什么地方呢",
+            "这篇论文发表期刊是什么呢",
+            "这篇论文发表地址在哪呢",
+            "这篇论文在什么期刊上",
+            "你知道这篇论文发表在什么地方呢",
+            "请问这篇论文发表期刊是什么呢",
+            "你好这篇论文发表地址在哪呢",
+            "你知道这篇论文在什么期刊上吗",
+            "告诉我这篇论文发表在什么期刊上"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "year"
+        ],
+        "description": "Request detail of year",
+        "message": [
+            "那么这篇论文发表在哪年呢",
+            "这篇论文发表时间是什么呢",
+            "这篇论文发表年份在什么时候呢",
+            "这篇论文在什么时候发表的",
+            "你知道这篇论文发表在什么时候呢",
+            "请问这篇论文发表时间是什么呢",
+            "你好这篇论文发表年份在哪呢",
+            "你知道这篇论文在什么时候吗",
+            "告诉我这篇论文发表在什么时候"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "institution"
+        ],
+        "description": "Request detail of institution",
+        "message": [
+            "那么这篇论文是哪家机构发表的呢",
+            "这篇论文发表机构是什么呢",
+            "这篇论文发表机构在谁呢",
+            "这篇论文在哪里发表的",
+            "你知道这篇论文发表机构是什么",
+            "请问这篇论文发表机构是什么呢",
+            "你好这篇论文发表机构在哪呢",
+            "你知道这篇论文在哪里发表的吗",
+            "告诉我这篇论文发表机构是什么"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "abstract"
+        ],
+        "description": "Request detail of abstract",
+        "message": [
+            "那么这篇论文的摘要是什么呢",
+            "这篇论文的摘要是什么",
+            "这篇论文的主题是什么",
+            "你知道这篇论文的摘要是什么吗",
+            "请问这篇论文的摘要是什么",
+            "这篇论文的具体摘要是什么",
+            "咨询一下这篇论文的摘要是什么",
+            "这篇论文大致讲睡美人",
+            "介绍这篇论文的摘要是什么",
+            "你好这篇论文的摘要是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "pdf"
+        ],
+        "description": "Request detail of pdf",
+        "message": [
+            "那么这篇论文的论文地址是什么呢",
+            "这篇论文发表地址是什么呢",
+            "这篇论文发表地址在哪里呢",
+            "这篇论文在哪里发表的",
+            "你知道这篇论文发表地址是什么",
+            "请问这篇论文发表地址是什么呢",
+            "你好这篇论文发表地址在哪呢",
+            "你知道这篇论文在哪里发表的吗",
+            "告诉我这篇论文发表地址是什么"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "video"
+        ],
+        "description": "Request detail of video",
+        "message": [
+            "有没有关于这篇论文的讲解视频呢",
+            "这篇论文视频是什么呢",
+            "这篇论文讲解视频在哪里可以看到呢",
+            "这篇论文讲解视频是讲什么的",
+            "你知道这篇论文讲解视频是什么",
+            "请问这篇论文讲解视频是什么呢",
+            "你好这篇论文的讲解视频呢",
+            "你知道这篇论文的讲解视频吗",
+            "告诉我这篇论文发表讲解视频是什么"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Request"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [
+            "blog"
+        ],
+        "description": "Request detail of blog",
+        "message": [
+            "有没有关于这篇论文的讲解博客呢",
+            "这篇论文讲解博客是什么呢",
+            "这篇论文讲解博客在哪里可以看到呢",
+            "这篇论文讲解博客是讲什么的",
+            "你知道这篇论文讲解博客是什么",
+            "请问这篇论文讲解博客是什么呢",
+            "你好这篇论文的讲解博客呢",
+            "你知道这篇论文的讲解博客吗",
+            "告诉我这篇论文发表讲解博客是什么"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "ISSN"
+        ],
+        "description": "Request detail of ISSN",
+        "message": [
+            "NATURE的ISSN是什么呢",
+            "请问NATURE的ISSN是什么呢",
+            "你知道NATURE的ISSN是什么吗",
+            "告诉我NATURE的ISSN是什么",
+            "查询一下NATURE的ISSN是什么呢",
+            "咨询一下NATURE的ISSN是什么呢",
+            "关于ISSN，NATURE的ISSN是什么呢",
+            "你好NATURE的ISSN是什么呢",
+            "问一下NATURE的ISSN是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "E_ISSN"
+        ],
+        "description": "Request detail of E_ISSN",
+        "message": [
+            "NATURE的E-ISSN是什么呢",
+            "请问NATURE的E-ISSN是什么呢",
+            "你知道NATURE的E-ISSN是什么吗",
+            "告诉我NATURE的E-ISSN是什么",
+            "查询一下NATURE的E-ISSN是什么呢",
+            "咨询一下NATURE的E-ISSN是什么呢",
+            "关于ISSN，NATURE的E-ISSN是什么呢",
+            "你好NATURE的E-ISSN是什么呢",
+            "问一下NATURE的E-ISSN是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "IF"
+        ],
+        "description": "Request detail of IF",
+        "message": [
+            "NATURE的IF指标是多少呢",
+            "请问NATURE的IF指标是什么呢",
+            "你知道NATURE的IF指标是什么吗",
+            "告诉我NATURE的IF指标是什么",
+            "查询一下NATURE的IF指标是什么呢",
+            "咨询一下NATURE的IF指标是什么呢",
+            "关于ISSN，NATURE的IF指标是什么呢",
+            "你好NATURE的IF指标是什么呢",
+            "问一下NATURE的IF指标是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "Request detail of h_index",
+        "message": [
+            "NATURE的h5指标是多少呢",
+            "请问NATURE的h5指标是什么呢",
+            "你知道NATURE的h5指标是什么吗",
+            "告诉我NATURE的h5指标是什么",
+            "查询一下NATURE的h5指标是什么呢",
+            "咨询一下NATURE的h5指标是什么呢",
+            "关于ISSN，NATURE的h5指标是什么呢",
+            "你好NATURE的h5指标是什么呢",
+            "问一下NATURE的h5指标是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "self_citing"
+        ],
+        "description": "Request detail of self_citing",
+        "message": [
+            "NATURE的自引率是多少呢",
+            "请问NATURE的自引率是什么呢",
+            "你知道NATURE的自引率是什么吗",
+            "告诉我NATURE的自引率是什么",
+            "查询一下NATURE的自引率是什么呢",
+            "咨询一下NATURE的自引率是什么呢",
+            "关于ISSN，NATURE的自引率是什么呢",
+            "你好NATURE的自引率是什么呢",
+            "问一下NATURE的自引率是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "ccf"
+        ],
+        "description": "Request detail of ccf",
+        "message": [
+            "TOIS的CCF级别是什么呢",
+            "请问NTOIS的CCF级别是什么呢",
+            "你知道TOIS的CCF级别是什么吗",
+            "告诉我TOIS的CCF级别是什么",
+            "查询一下TOIS的CCF级别是什么呢",
+            "咨询一下TOIS的CCF级别是什么呢",
+            "关于TOIS，TOIS的CCF级别是什么呢",
+            "你好TOIS的CCF级别是什么呢",
+            "问一下TOIS的CCF级别是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "sci"
+        ],
+        "description": "Request detail of sci",
+        "message": [
+            "TOIS的sci分区是什么呢",
+            "请问NTOIS的sci分区是什么呢",
+            "你知道TOIS的sci分区是什么吗",
+            "告诉我TOIS的sci分区是什么",
+            "查询一下TOIS的sci分区是什么呢",
+            "咨询一下TOIS的sci分区是什么呢",
+            "关于TOIS，TOIS的sci分区是什么呢",
+            "你好TOIS的sci分区是什么呢",
+            "问一下TOIS的sci分区是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "Request detail of website",
+        "message": [
+            "NATURE的官网是什么呢",
+            "请问NATURE的官网是什么呢",
+            "你知道NATURE的官网是什么吗",
+            "告诉我NATURE的官网是什么",
+            "查询一下NATURE的官网是什么呢",
+            "咨询一下NATURE的官网是什么呢",
+            "关于ISSN，NATURE的官网是什么呢",
+            "你好NATURE的官网是什么呢",
+            "问一下NATURE的官网是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "submit"
+        ],
+        "description": "Request detail of submit",
+        "message": [
+            "NATURE的提交网址是什么呢",
+            "请问NATURE的提交网址是什么呢",
+            "你知道NATURE的提交网址是什么吗",
+            "告诉我NATURE的提交网址是什么",
+            "查询一下NATURE的提交网址是什么呢",
+            "咨询一下NATURE的提交网址是什么呢",
+            "关于ISSN，NATURE的提交网址是什么呢",
+            "你好NATURE的提交网址是什么呢",
+            "问一下NATURE的提交网址是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "OA"
+        ],
+        "description": "Request detail of OA",
+        "message": [
+            "NATURE是否开放访问呢",
+            "NATURE能否开发访问呢",
+            "请问NATURE是否开放访问呢",
+            "请问NATURE能否开发访问呢",
+            "NATURE可以自由访问吗",
+            "你知道NATURE可以自由访问吗",
+            "NATURE对访问者是否没有限制",
+            "咨询一下NATURE能否开发访问呢",
+            "问一下NATURE是否开放访问呢",
+            "你知道NATURE是否开放访问呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "category"
+        ],
+        "description": "Request detail of category",
+        "message": [
+            "NATURE是什么领域的期刊呢",
+            "请问NATURE的研究方向是什么呢",
+            "你知道NATURE的涉及领域是什么吗",
+            "告诉我NATURE的研究领域是什么",
+            "查询一下NATURE的期刊研究内容是关于什么呢",
+            "咨询一下NATURE的研究领域是什么呢",
+            "关于研究领域，NATURE的研究方向是什么呢",
+            "你好NATURE的研究方向是什么呢",
+            "问一下NATURE的研究方向是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "speed"
+        ],
+        "description": "Request detail of speed",
+        "message": [
+            "NATURE审稿快慢呢",
+            "NATURE审稿周期怎么样呢",
+            "请问NATURE审稿速度怎么样呢",
+            "请问NATURE审稿快慢怎么样",
+            "NATURE审稿快吗",
+            "你知道NATURE审稿周期怎么样",
+            "NATURE对稿件审查速度怎么样",
+            "咨询一下NATURE的审稿速度快慢",
+            "问一下NATURE是否审稿周期短呢",
+            "你知道NATURE审稿速度怎么样呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "rate"
+        ],
+        "description": "Request detail of rate",
+        "message": [
+            "NATURE的录取率如何",
+            "NATURE录取率怎么样呢",
+            "请问NATURE录取率怎么样呢",
+            "请问NATURE录取率怎么样",
+            "NATURE录取率高吗",
+            "你知道NATURE录取率怎么样吗",
+            "NATURE对稿件通过率怎么样",
+            "咨询一下NATURE的录取率高低",
+            "问一下NATURE是否录取率极高呢",
+            "你知道NATURE录取率怎么样呢"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website",
+            "submit"
+        ],
+        "description": "Request detail of website,submit",
+        "message": [
+            "NATURE在哪里查看官网信息和投稿呢",
+            "NATURE官网信息和投稿网址怎什么呢",
+            "请问NATURE官网信息和投稿网址在哪里获取呢",
+            "请问NATURE官网信息和投稿网页怎么样",
+            "NATURE官网信息和投稿网址是什么吗",
+            "你知道NATURE在哪里看官网信息和投稿网址吗",
+            "NATURE的官网信息和投稿网址怎是什么",
+            "咨询一下NATURE的官网信息和投稿网址",
+            "问一下NATURE官网信息和投稿网址在哪里可以查看呢",
+            "你知道NATURE在哪里查看官网信息和投稿呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "field"
+        ],
+        "description": "Request detail of field",
+        "message": [
+            "黄河燕是做什么方向的呢",
+            "黄河燕是哪个方向的",
+            "黄河燕具体研究什么方向",
+            "你知道黄河燕是做什么方向的吗",
+            "黄河燕是做什么领域的",
+            "黄河燕从事哪个方向",
+            "请告诉我黄河燕具体研究什么方向",
+            "你知道黄河燕从事哪个方向",
+            "黄河燕在哪个领域研究颇深",
+            "黄河燕在什么方向有所建树"
+        ]
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "affiliation"
+        ],
+        "description": "Request detail of affiliation",
+        "message": [
+            "黄河燕是在什么机构工作的呢",
+            "黄河燕是哪个机构的",
+            "你知道黄河燕是在什么机构工作的吗",
+            "黄河燕是在哪从事研究工作的呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "position"
+        ],
+        "description": "Request detail of position",
+        "message": [
+            "黄河燕现在是什么级别的老师呢",
+            "黄河燕老师现在的级别是什么呢",
+            "你知道黄河燕现在是什么级别的老师吗",
+            "黄河燕老师现在是什么职称",
+            "黄河燕老师现在的职称是什么",
+            "可以查询一下黄河燕老师现在的职称是什么吗",
+            "请问黄河燕老师现在的级别是什么呢",
+            "你好你知道黄河燕老师现在的职称是什么吗",
+            "黄河燕现在属于什么级别的老师呢",
+            "黄河燕现在具体的职称是什么呢"
+        ]
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "citations"
+        ],
+        "description": "Request detail of citations",
+        "message": [
+            "黄河燕目前发表过的论文的总引用量是多少呢",
+            "目前黄河燕发表过的论文的总引用量是多少呢",
+            "请问黄河燕目前发表过的论文的总引用量是多少",
+            "可以查询一下黄河燕目前发表过的论文的总引用量是多少",
+            "黄河燕作为作者发表过的论文的总引用量到现在为止是多少",
+            "你知道黄河燕目前发表过的论文的总引用量是多少吗",
+            "到目前为止黄河燕发表过的论文的总引用量是多少呢",
+            "通过数据查询，黄河燕目前发表过的论文的总引用量是多少呢",
+            "请问黄河燕作为作者目前发表过的论文的总引用量是多少",
+            "可以查询一下黄河燕作为作者目前发表过的论文的总引用量是多少吗"
+        ]
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "h_index"
+        ],
+        "description": "Request detail of h_index",
+        "message": [
+            "黄河燕的h5指数是多少呢",
+            "目前黄河燕的h5指数是多少呢",
+            "请问黄河燕的h5指数是多少呢",
+            "可以查询一下作者为黄河燕的h5指数是多少",
+            "黄河燕作为作者，到现在为止她的h5指数是多少",
+            "你知道黄黄河燕的h5指数是多少吗",
+            "到目前为止黄河燕的h5指数是多少",
+            "通过数据查询，黄河燕的h5指数是多少",
+            "请问黄河燕作为作者目前h5指数是多少",
+            "请查询一下黄河燕作为作者目前h5指数是多少"
+        ]
+    },
+    {
+        "action": [
+            "Author-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "pubs"
+        ],
+        "description": "Request detail of pubs",
+        "message": [
+            "黄河燕共发表过多少篇论文嗯",
+            "目前黄河燕发表过的论文的总数是多少呢",
+            "请问黄河燕目前发表过的论文的总数是多少",
+            "可以查询一下黄河燕目前发表过的论文的总数是多少",
+            "黄河燕作为作者发表过的论文的总数到现在为止是多少",
+            "你知道黄河燕目前发表过的论文的总数是多少吗",
+            "到目前为止黄河燕发表过的论文的总数是多少呢",
+            "通过数据查询，黄河燕目前发表过的论文的总数是多少呢",
+            "请问黄河燕作为作者目前发表过的论文的总数是多少",
+            "可以查询一下黄河燕作为作者目前发表过的论文的总数是多少吗"
+        ]
+    },
+    {
+        "action": [
+            "Institution-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "address"
+        ],
+        "description": "Request detail of address",
+        "message": [
+            "北京大学的地址是什么呢",
+            "北京大学位于什么位置呢",
+            "北京大学在哪呢",
+            "北京大学坐落在什么地方呢",
+            "请问北京大学的具体地址是什么",
+            "查询北京大学的校址",
+            "请回答北京大学的具体位置",
+            "北京大学位于北京市的什么位置呢",
+            "你知道北京大学的地址是什么吗",
+            "请告诉我北京大学的地址是什么"
+        ]
+    },
+    {
+        "action": [
+            "Institution-Request"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [
+            "website"
+        ],
+        "description": "Request detail of website",
+        "message": [
+            "北京大学的官网是什么呢",
+            "北京大学的官网链接是什么",
+            "请告诉我北京大学的官网是什么呢",
+            "你知道北京大学的官网链接是什么吗",
+            "北京大学的官网地址是什么",
+            "北京大学的官网中包括了什么",
+            "北京大学的官网是关于什么的",
+            "你知道北京大学的官网是什么吗，告诉我",
+            "你知道北京大学的官网地址是什么吗",
+            "请问北京大学的官网是什么呢"
+        ]
+    }
+]

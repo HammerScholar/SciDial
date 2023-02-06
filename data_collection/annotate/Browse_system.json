@@ -1,0 +1,88 @@
+[
+    {
+        "action": [
+            "Conference-Browse"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Can browse the website of Conference",
+        "message": [
+            "接下来我们将为你打开ACL2022的官网",
+            "我们将为你打开ACL2022的官网"
+        ]
+    },
+    {
+        "action": [
+            "Conference-NoBrowse"
+        ],
+        "required_slot": [
+            "acronym",
+            "year"
+        ],
+        "requested_slot": [],
+        "description": "Cannot browse the website of Conference",
+        "message": [
+            "抱歉我们目前无法为您打开ACL2022的官网",
+            "暂时无法为您打开ACL2022的官网"
+        ]
+    },
+    {
+        "action": [
+            "Paper-Browse"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Can browse the website of Paper",
+        "message": [
+            "接下来我们将为你在浏览器中打开这篇论文",
+            "我们将为你在浏览器中打开这篇论文"
+        ]
+    },
+    {
+        "action": [
+            "Paper-NoBrowse"
+        ],
+        "required_slot": [
+            "title"
+        ],
+        "requested_slot": [],
+        "description": "Cannot browse the website of Paper",
+        "message": [
+            "抱歉我们目前无法为您打开这篇论文",
+            "暂时无法为您打开这篇论文"
+        ]
+    },
+    {
+        "action": [
+            "Journal-Browse"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "Can browse the website of Journal",
+        "message": [
+            "接下来我们将为你打开TOIS的官网",
+            "我们将为你打开TOIS的官网"
+        ]
+    },
+    {
+        "action": [
+            "Journal-NoBrowse"
+        ],
+        "required_slot": [
+            "name"
+        ],
+        "requested_slot": [],
+        "description": "Cannot browse the website of Journal",
+        "message": [
+            "抱歉我们目前无法为您打开TOIS的官网",
+            "暂时无法为您打开TOIS的官网"
+        ]
+    }
+]
