@@ -72,8 +72,7 @@ A dialogue is stored as a file. For each conversation, we provide its dialogue p
         "goal": {
             "Conference": {
                 "semi": {
-                    "paperDue": [”下个月],
-                    "category": [“NLP]
+                    "paperDue": [”下个月]
                 }
             },
             "Paper": {},
@@ -81,23 +80,19 @@ A dialogue is stored as a file. For each conversation, we provide its dialogue p
             "Author": {},
             "Institution": {},
             "description": [
-                "Given paperDue,category; Recommend Conference",
+                "Given paperDue; Recommend Conference",
                 ...
             ]
         },
         "log": [
             {
-                "text": "下个月有没有要截稿的NLP会议呢",
+                "text": "下个月有没有要截稿的会议呢",
                 "metadata": {},
                 "dialog_act": {
                     "Conference-Inform": [
                         [
                             "paperDue",
                             "下个月"
-                        ],
-                        [
-                            "category",
-                            "NLP"
                         ]
                     ]
                 },
@@ -108,13 +103,6 @@ A dialogue is stored as a file. For each conversation, we provide its dialogue p
                         "下个月",
                         0,
                         2
-                    ],
-                    [
-                        "Conference-Inform",
-                        "category",
-                        "NLP",
-                        10,
-                        12
                     ]
                 ]
             },
